@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Delegate IEventManager.AsyncMessagePublisher
+    <title>Class BackoffStrategies
    | KubeOps Documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Delegate IEventManager.AsyncMessagePublisher
+    <meta name="title" content="Class BackoffStrategies
    | KubeOps Documentation ">
     <meta name="generator" content="docfx 2.58.4.0">
     
@@ -239,8 +239,8 @@
                       <a href="KubeOps.Operator.Errors.html" title="KubeOps.Operator.Errors" class="">KubeOps.Operator.Errors</a>
                         
                         <ul class="nav level2">
-                          <li class="">
-                            <a href="KubeOps.Operator.Errors.BackoffStrategies.html" title="BackoffStrategies" class="">BackoffStrategies</a>
+                          <li class="active">
+                            <a href="KubeOps.Operator.Errors.BackoffStrategies.html" title="BackoffStrategies" class="active">BackoffStrategies</a>
                           </li>
                           <li class="">
                             <a href="KubeOps.Operator.Errors.BackoffStrategy.html" title="BackoffStrategy" class="">BackoffStrategy</a>
@@ -257,8 +257,8 @@
                           <li class="">
                             <a href="KubeOps.Operator.Events.IEventManager.html" title="IEventManager" class="">IEventManager</a>
                           </li>
-                          <li class="active">
-                            <a href="KubeOps.Operator.Events.IEventManager.AsyncMessagePublisher.html" title="IEventManager.AsyncMessagePublisher" class="active">IEventManager.AsyncMessagePublisher</a>
+                          <li class="">
+                            <a href="KubeOps.Operator.Events.IEventManager.AsyncMessagePublisher.html" title="IEventManager.AsyncMessagePublisher" class="">IEventManager.AsyncMessagePublisher</a>
                           </li>
                           <li class="">
                             <a href="KubeOps.Operator.Events.IEventManager.AsyncPublisher.html" title="IEventManager.AsyncPublisher" class="">IEventManager.AsyncPublisher</a>
@@ -349,60 +349,84 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="KubeOps.Operator.Events.IEventManager.AsyncMessagePublisher">
+            <article class="content wrap" id="_content" data-uid="KubeOps.Operator.Errors.BackoffStrategies">
   
   
-  <h1 id="KubeOps_Operator_Events_IEventManager_AsyncMessagePublisher" data-uid="KubeOps.Operator.Events.IEventManager.AsyncMessagePublisher" class="text-break">Delegate IEventManager.AsyncMessagePublisher
+  <h1 id="KubeOps_Operator_Errors_BackoffStrategies" data-uid="KubeOps.Operator.Errors.BackoffStrategies" class="text-break">Class BackoffStrategies
   </h1>
-  <div class="markdown level0 summary"><p>Delegate that publishes a given message to a predefined reason/severity.
-This delegate should be created with <a class="xref" href="KubeOps.Operator.Events.IEventManager.html#KubeOps_Operator_Events_IEventManager_CreatePublisher_System_String_KubeOps_Operator_Events_EventType_">CreatePublisher(String, EventType)</a>
-When called with the resource and a message, the publisher creates or updates the event
-given by the params.</p>
+  <div class="markdown level0 summary"><p>Class that holds <a class="xref" href="KubeOps.Operator.Errors.BackoffStrategy.html">BackoffStrategy</a> that are used in
+defaults.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="KubeOps.Operator.Events.html">KubeOps.Operator.Events</a></h6>
-  <h6><strong>Assembly</strong>: KubeOps.dll</h6>
-  <h5 id="KubeOps_Operator_Events_IEventManager_AsyncMessagePublisher_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public delegate Task AsyncMessagePublisher(IKubernetesObject&lt;V1ObjectMeta&gt; resource, string message);</code></pre>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">BackoffStrategies</span></div>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="KubeOps.Operator.Errors.html">KubeOps.Operator.Errors</a></h6>
+  <h6><strong>Assembly</strong>: KubeOps.dll</h6>
+  <h5 id="KubeOps_Operator_Errors_BackoffStrategies_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class BackoffStrategies</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Errors_BackoffStrategies_ExponentialBackoffStrategy.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Errors.BackoffStrategies.ExponentialBackoffStrategy%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Errors/BackoffStrategies.cs/#L27">View Source</a>
+  </span>
+  <a id="KubeOps_Operator_Errors_BackoffStrategies_ExponentialBackoffStrategy_" data-uid="KubeOps.Operator.Errors.BackoffStrategies.ExponentialBackoffStrategy*"></a>
+  <h4 id="KubeOps_Operator_Errors_BackoffStrategies_ExponentialBackoffStrategy" data-uid="KubeOps.Operator.Errors.BackoffStrategies.ExponentialBackoffStrategy">ExponentialBackoffStrategy</h4>
+  <div class="markdown level1 summary"><p>Default <a class="xref" href="KubeOps.Operator.Errors.BackoffStrategy.html">BackoffStrategy</a> for the operator. It is used
+in conjunction with the max retries settings to determine the backoff
+with a random component for the retry timer.
+It takes the exponential calculation of the retry count (2^x) and
+adds a random number of milliseconds (0-1000) to it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BackoffStrategy ExponentialBackoffStrategy { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">k8s.IKubernetesObject</span>&lt;<span class="xref">k8s.Models.V1ObjectMeta</span>&gt;</td>
-        <td><span class="parametername">resource</span></td>
-        <td><p>The resource on which the event should be published.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">message</span></td>
-        <td><p>The message that the event should contain.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
-        <td><p>A task that completes when the event is published.</p>
-</td>
+        <td><a class="xref" href="KubeOps.Operator.Errors.BackoffStrategy.html">BackoffStrategy</a></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -414,10 +438,10 @@ given by the params.</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Events_IEventManager_AsyncMessagePublisher.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Events.IEventManager.AsyncMessagePublisher%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Errors_BackoffStrategies.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Errors.BackoffStrategies%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Events/IEventManager.cs/#L41" class="contribution-link">View Source</a>
+                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Errors/BackoffStrategies.cs/#L16" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

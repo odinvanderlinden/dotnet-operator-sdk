@@ -220,23 +220,6 @@ references:
   fullName.vb: KubeOps.Operator.Controller.IResourceController(Of TEntity)
   nameWithType: IResourceController<TEntity>
   nameWithType.vb: IResourceController(Of TEntity)
-- uid: KubeOps.Operator.Controller.IResourceController`1.CreatedAsync(`0)
-  name: CreatedAsync(TEntity)
-  href: kube-ops/KubeOps.Operator.Controller.IResourceController-1.html#KubeOps_Operator_Controller_IResourceController_1_CreatedAsync__0_
-  commentId: M:KubeOps.Operator.Controller.IResourceController`1.CreatedAsync(`0)
-  fullName: KubeOps.Operator.Controller.IResourceController<TEntity>.CreatedAsync(TEntity)
-  fullName.vb: KubeOps.Operator.Controller.IResourceController(Of TEntity).CreatedAsync(TEntity)
-  nameWithType: IResourceController<TEntity>.CreatedAsync(TEntity)
-  nameWithType.vb: IResourceController(Of TEntity).CreatedAsync(TEntity)
-- uid: KubeOps.Operator.Controller.IResourceController`1.CreatedAsync*
-  name: CreatedAsync
-  href: kube-ops/KubeOps.Operator.Controller.IResourceController-1.html#KubeOps_Operator_Controller_IResourceController_1_CreatedAsync_
-  commentId: Overload:KubeOps.Operator.Controller.IResourceController`1.CreatedAsync
-  isSpec: "True"
-  fullName: KubeOps.Operator.Controller.IResourceController<TEntity>.CreatedAsync
-  fullName.vb: KubeOps.Operator.Controller.IResourceController(Of TEntity).CreatedAsync
-  nameWithType: IResourceController<TEntity>.CreatedAsync
-  nameWithType.vb: IResourceController(Of TEntity).CreatedAsync
 - uid: KubeOps.Operator.Controller.IResourceController`1.DeletedAsync(`0)
   name: DeletedAsync(TEntity)
   href: kube-ops/KubeOps.Operator.Controller.IResourceController-1.html#KubeOps_Operator_Controller_IResourceController_1_DeletedAsync__0_
@@ -254,23 +237,23 @@ references:
   fullName.vb: KubeOps.Operator.Controller.IResourceController(Of TEntity).DeletedAsync
   nameWithType: IResourceController<TEntity>.DeletedAsync
   nameWithType.vb: IResourceController(Of TEntity).DeletedAsync
-- uid: KubeOps.Operator.Controller.IResourceController`1.NotModifiedAsync(`0)
-  name: NotModifiedAsync(TEntity)
-  href: kube-ops/KubeOps.Operator.Controller.IResourceController-1.html#KubeOps_Operator_Controller_IResourceController_1_NotModifiedAsync__0_
-  commentId: M:KubeOps.Operator.Controller.IResourceController`1.NotModifiedAsync(`0)
-  fullName: KubeOps.Operator.Controller.IResourceController<TEntity>.NotModifiedAsync(TEntity)
-  fullName.vb: KubeOps.Operator.Controller.IResourceController(Of TEntity).NotModifiedAsync(TEntity)
-  nameWithType: IResourceController<TEntity>.NotModifiedAsync(TEntity)
-  nameWithType.vb: IResourceController(Of TEntity).NotModifiedAsync(TEntity)
-- uid: KubeOps.Operator.Controller.IResourceController`1.NotModifiedAsync*
-  name: NotModifiedAsync
-  href: kube-ops/KubeOps.Operator.Controller.IResourceController-1.html#KubeOps_Operator_Controller_IResourceController_1_NotModifiedAsync_
-  commentId: Overload:KubeOps.Operator.Controller.IResourceController`1.NotModifiedAsync
+- uid: KubeOps.Operator.Controller.IResourceController`1.ReconcileAsync(`0)
+  name: ReconcileAsync(TEntity)
+  href: kube-ops/KubeOps.Operator.Controller.IResourceController-1.html#KubeOps_Operator_Controller_IResourceController_1_ReconcileAsync__0_
+  commentId: M:KubeOps.Operator.Controller.IResourceController`1.ReconcileAsync(`0)
+  fullName: KubeOps.Operator.Controller.IResourceController<TEntity>.ReconcileAsync(TEntity)
+  fullName.vb: KubeOps.Operator.Controller.IResourceController(Of TEntity).ReconcileAsync(TEntity)
+  nameWithType: IResourceController<TEntity>.ReconcileAsync(TEntity)
+  nameWithType.vb: IResourceController(Of TEntity).ReconcileAsync(TEntity)
+- uid: KubeOps.Operator.Controller.IResourceController`1.ReconcileAsync*
+  name: ReconcileAsync
+  href: kube-ops/KubeOps.Operator.Controller.IResourceController-1.html#KubeOps_Operator_Controller_IResourceController_1_ReconcileAsync_
+  commentId: Overload:KubeOps.Operator.Controller.IResourceController`1.ReconcileAsync
   isSpec: "True"
-  fullName: KubeOps.Operator.Controller.IResourceController<TEntity>.NotModifiedAsync
-  fullName.vb: KubeOps.Operator.Controller.IResourceController(Of TEntity).NotModifiedAsync
-  nameWithType: IResourceController<TEntity>.NotModifiedAsync
-  nameWithType.vb: IResourceController(Of TEntity).NotModifiedAsync
+  fullName: KubeOps.Operator.Controller.IResourceController<TEntity>.ReconcileAsync
+  fullName.vb: KubeOps.Operator.Controller.IResourceController(Of TEntity).ReconcileAsync
+  nameWithType: IResourceController<TEntity>.ReconcileAsync
+  nameWithType.vb: IResourceController(Of TEntity).ReconcileAsync
 - uid: KubeOps.Operator.Controller.IResourceController`1.StatusModifiedAsync(`0)
   name: StatusModifiedAsync(TEntity)
   href: kube-ops/KubeOps.Operator.Controller.IResourceController-1.html#KubeOps_Operator_Controller_IResourceController_1_StatusModifiedAsync__0_
@@ -288,23 +271,6 @@ references:
   fullName.vb: KubeOps.Operator.Controller.IResourceController(Of TEntity).StatusModifiedAsync
   nameWithType: IResourceController<TEntity>.StatusModifiedAsync
   nameWithType.vb: IResourceController(Of TEntity).StatusModifiedAsync
-- uid: KubeOps.Operator.Controller.IResourceController`1.UpdatedAsync(`0)
-  name: UpdatedAsync(TEntity)
-  href: kube-ops/KubeOps.Operator.Controller.IResourceController-1.html#KubeOps_Operator_Controller_IResourceController_1_UpdatedAsync__0_
-  commentId: M:KubeOps.Operator.Controller.IResourceController`1.UpdatedAsync(`0)
-  fullName: KubeOps.Operator.Controller.IResourceController<TEntity>.UpdatedAsync(TEntity)
-  fullName.vb: KubeOps.Operator.Controller.IResourceController(Of TEntity).UpdatedAsync(TEntity)
-  nameWithType: IResourceController<TEntity>.UpdatedAsync(TEntity)
-  nameWithType.vb: IResourceController(Of TEntity).UpdatedAsync(TEntity)
-- uid: KubeOps.Operator.Controller.IResourceController`1.UpdatedAsync*
-  name: UpdatedAsync
-  href: kube-ops/KubeOps.Operator.Controller.IResourceController-1.html#KubeOps_Operator_Controller_IResourceController_1_UpdatedAsync_
-  commentId: Overload:KubeOps.Operator.Controller.IResourceController`1.UpdatedAsync
-  isSpec: "True"
-  fullName: KubeOps.Operator.Controller.IResourceController<TEntity>.UpdatedAsync
-  fullName.vb: KubeOps.Operator.Controller.IResourceController(Of TEntity).UpdatedAsync
-  nameWithType: IResourceController<TEntity>.UpdatedAsync
-  nameWithType.vb: IResourceController(Of TEntity).UpdatedAsync
 - uid: KubeOps.Operator.Controller.Results
   name: KubeOps.Operator.Controller.Results
   href: kube-ops/KubeOps.Operator.Controller.Results.html
@@ -624,6 +590,41 @@ references:
   isSpec: "True"
   fullName: KubeOps.Operator.Entities.Annotations.ItemsAttribute.MinItems
   nameWithType: ItemsAttribute.MinItems
+- uid: KubeOps.Operator.Entities.Annotations.KubernetesEntityShortNamesAttribute
+  name: KubernetesEntityShortNamesAttribute
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.KubernetesEntityShortNamesAttribute.html
+  commentId: T:KubeOps.Operator.Entities.Annotations.KubernetesEntityShortNamesAttribute
+  fullName: KubeOps.Operator.Entities.Annotations.KubernetesEntityShortNamesAttribute
+  nameWithType: KubernetesEntityShortNamesAttribute
+- uid: KubeOps.Operator.Entities.Annotations.KubernetesEntityShortNamesAttribute.#ctor(System.String[])
+  name: KubernetesEntityShortNamesAttribute(String[])
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.KubernetesEntityShortNamesAttribute.html#KubeOps_Operator_Entities_Annotations_KubernetesEntityShortNamesAttribute__ctor_System_String___
+  commentId: M:KubeOps.Operator.Entities.Annotations.KubernetesEntityShortNamesAttribute.#ctor(System.String[])
+  name.vb: KubernetesEntityShortNamesAttribute(String())
+  fullName: KubeOps.Operator.Entities.Annotations.KubernetesEntityShortNamesAttribute.KubernetesEntityShortNamesAttribute(System.String[])
+  fullName.vb: KubeOps.Operator.Entities.Annotations.KubernetesEntityShortNamesAttribute.KubernetesEntityShortNamesAttribute(System.String())
+  nameWithType: KubernetesEntityShortNamesAttribute.KubernetesEntityShortNamesAttribute(String[])
+  nameWithType.vb: KubernetesEntityShortNamesAttribute.KubernetesEntityShortNamesAttribute(String())
+- uid: KubeOps.Operator.Entities.Annotations.KubernetesEntityShortNamesAttribute.#ctor*
+  name: KubernetesEntityShortNamesAttribute
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.KubernetesEntityShortNamesAttribute.html#KubeOps_Operator_Entities_Annotations_KubernetesEntityShortNamesAttribute__ctor_
+  commentId: Overload:KubeOps.Operator.Entities.Annotations.KubernetesEntityShortNamesAttribute.#ctor
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Annotations.KubernetesEntityShortNamesAttribute.KubernetesEntityShortNamesAttribute
+  nameWithType: KubernetesEntityShortNamesAttribute.KubernetesEntityShortNamesAttribute
+- uid: KubeOps.Operator.Entities.Annotations.KubernetesEntityShortNamesAttribute.ShortNames
+  name: ShortNames
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.KubernetesEntityShortNamesAttribute.html#KubeOps_Operator_Entities_Annotations_KubernetesEntityShortNamesAttribute_ShortNames
+  commentId: P:KubeOps.Operator.Entities.Annotations.KubernetesEntityShortNamesAttribute.ShortNames
+  fullName: KubeOps.Operator.Entities.Annotations.KubernetesEntityShortNamesAttribute.ShortNames
+  nameWithType: KubernetesEntityShortNamesAttribute.ShortNames
+- uid: KubeOps.Operator.Entities.Annotations.KubernetesEntityShortNamesAttribute.ShortNames*
+  name: ShortNames
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.KubernetesEntityShortNamesAttribute.html#KubeOps_Operator_Entities_Annotations_KubernetesEntityShortNamesAttribute_ShortNames_
+  commentId: Overload:KubeOps.Operator.Entities.Annotations.KubernetesEntityShortNamesAttribute.ShortNames
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Annotations.KubernetesEntityShortNamesAttribute.ShortNames
+  nameWithType: KubernetesEntityShortNamesAttribute.ShortNames
 - uid: KubeOps.Operator.Entities.Annotations.LengthAttribute
   name: LengthAttribute
   href: kube-ops/KubeOps.Operator.Entities.Annotations.LengthAttribute.html
@@ -1214,6 +1215,37 @@ references:
   isSpec: "True"
   fullName: KubeOps.Operator.Entities.Kustomize.KustomizationImage.NewTag
   nameWithType: KustomizationImage.NewTag
+- uid: KubeOps.Operator.Errors
+  name: KubeOps.Operator.Errors
+  href: kube-ops/KubeOps.Operator.Errors.html
+  commentId: N:KubeOps.Operator.Errors
+  fullName: KubeOps.Operator.Errors
+  nameWithType: KubeOps.Operator.Errors
+- uid: KubeOps.Operator.Errors.BackoffStrategies
+  name: BackoffStrategies
+  href: kube-ops/KubeOps.Operator.Errors.BackoffStrategies.html
+  commentId: T:KubeOps.Operator.Errors.BackoffStrategies
+  fullName: KubeOps.Operator.Errors.BackoffStrategies
+  nameWithType: BackoffStrategies
+- uid: KubeOps.Operator.Errors.BackoffStrategies.ExponentialBackoffStrategy
+  name: ExponentialBackoffStrategy
+  href: kube-ops/KubeOps.Operator.Errors.BackoffStrategies.html#KubeOps_Operator_Errors_BackoffStrategies_ExponentialBackoffStrategy
+  commentId: P:KubeOps.Operator.Errors.BackoffStrategies.ExponentialBackoffStrategy
+  fullName: KubeOps.Operator.Errors.BackoffStrategies.ExponentialBackoffStrategy
+  nameWithType: BackoffStrategies.ExponentialBackoffStrategy
+- uid: KubeOps.Operator.Errors.BackoffStrategies.ExponentialBackoffStrategy*
+  name: ExponentialBackoffStrategy
+  href: kube-ops/KubeOps.Operator.Errors.BackoffStrategies.html#KubeOps_Operator_Errors_BackoffStrategies_ExponentialBackoffStrategy_
+  commentId: Overload:KubeOps.Operator.Errors.BackoffStrategies.ExponentialBackoffStrategy
+  isSpec: "True"
+  fullName: KubeOps.Operator.Errors.BackoffStrategies.ExponentialBackoffStrategy
+  nameWithType: BackoffStrategies.ExponentialBackoffStrategy
+- uid: KubeOps.Operator.Errors.BackoffStrategy
+  name: BackoffStrategy
+  href: kube-ops/KubeOps.Operator.Errors.BackoffStrategy.html
+  commentId: T:KubeOps.Operator.Errors.BackoffStrategy
+  fullName: KubeOps.Operator.Errors.BackoffStrategy
+  nameWithType: BackoffStrategy
 - uid: KubeOps.Operator.Events
   name: KubeOps.Operator.Events
   href: kube-ops/KubeOps.Operator.Events.html
@@ -1457,12 +1489,6 @@ references:
   commentId: T:KubeOps.Operator.Kubernetes.ResourceEventType
   fullName: KubeOps.Operator.Kubernetes.ResourceEventType
   nameWithType: ResourceEventType
-- uid: KubeOps.Operator.Kubernetes.ResourceEventType.Created
-  name: Created
-  href: kube-ops/KubeOps.Operator.Kubernetes.ResourceEventType.html#KubeOps_Operator_Kubernetes_ResourceEventType_Created
-  commentId: F:KubeOps.Operator.Kubernetes.ResourceEventType.Created
-  fullName: KubeOps.Operator.Kubernetes.ResourceEventType.Created
-  nameWithType: ResourceEventType.Created
 - uid: KubeOps.Operator.Kubernetes.ResourceEventType.Deleted
   name: Deleted
   href: kube-ops/KubeOps.Operator.Kubernetes.ResourceEventType.html#KubeOps_Operator_Kubernetes_ResourceEventType_Deleted
@@ -1481,24 +1507,18 @@ references:
   commentId: F:KubeOps.Operator.Kubernetes.ResourceEventType.Finalizing
   fullName: KubeOps.Operator.Kubernetes.ResourceEventType.Finalizing
   nameWithType: ResourceEventType.Finalizing
-- uid: KubeOps.Operator.Kubernetes.ResourceEventType.NotModified
-  name: NotModified
-  href: kube-ops/KubeOps.Operator.Kubernetes.ResourceEventType.html#KubeOps_Operator_Kubernetes_ResourceEventType_NotModified
-  commentId: F:KubeOps.Operator.Kubernetes.ResourceEventType.NotModified
-  fullName: KubeOps.Operator.Kubernetes.ResourceEventType.NotModified
-  nameWithType: ResourceEventType.NotModified
+- uid: KubeOps.Operator.Kubernetes.ResourceEventType.Reconcile
+  name: Reconcile
+  href: kube-ops/KubeOps.Operator.Kubernetes.ResourceEventType.html#KubeOps_Operator_Kubernetes_ResourceEventType_Reconcile
+  commentId: F:KubeOps.Operator.Kubernetes.ResourceEventType.Reconcile
+  fullName: KubeOps.Operator.Kubernetes.ResourceEventType.Reconcile
+  nameWithType: ResourceEventType.Reconcile
 - uid: KubeOps.Operator.Kubernetes.ResourceEventType.StatusUpdated
   name: StatusUpdated
   href: kube-ops/KubeOps.Operator.Kubernetes.ResourceEventType.html#KubeOps_Operator_Kubernetes_ResourceEventType_StatusUpdated
   commentId: F:KubeOps.Operator.Kubernetes.ResourceEventType.StatusUpdated
   fullName: KubeOps.Operator.Kubernetes.ResourceEventType.StatusUpdated
   nameWithType: ResourceEventType.StatusUpdated
-- uid: KubeOps.Operator.Kubernetes.ResourceEventType.Updated
-  name: Updated
-  href: kube-ops/KubeOps.Operator.Kubernetes.ResourceEventType.html#KubeOps_Operator_Kubernetes_ResourceEventType_Updated
-  commentId: F:KubeOps.Operator.Kubernetes.ResourceEventType.Updated
-  fullName: KubeOps.Operator.Kubernetes.ResourceEventType.Updated
-  nameWithType: ResourceEventType.Updated
 - uid: KubeOps.Operator.Leadership
   name: KubeOps.Operator.Leadership
   href: kube-ops/KubeOps.Operator.Leadership.html
@@ -1663,6 +1683,45 @@ references:
   isSpec: "True"
   fullName: KubeOps.Operator.OperatorSettings.EnableLeaderElection
   nameWithType: OperatorSettings.EnableLeaderElection
+- uid: KubeOps.Operator.OperatorSettings.ErrorBackoffStrategy
+  name: ErrorBackoffStrategy
+  href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_ErrorBackoffStrategy
+  commentId: P:KubeOps.Operator.OperatorSettings.ErrorBackoffStrategy
+  fullName: KubeOps.Operator.OperatorSettings.ErrorBackoffStrategy
+  nameWithType: OperatorSettings.ErrorBackoffStrategy
+- uid: KubeOps.Operator.OperatorSettings.ErrorBackoffStrategy*
+  name: ErrorBackoffStrategy
+  href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_ErrorBackoffStrategy_
+  commentId: Overload:KubeOps.Operator.OperatorSettings.ErrorBackoffStrategy
+  isSpec: "True"
+  fullName: KubeOps.Operator.OperatorSettings.ErrorBackoffStrategy
+  nameWithType: OperatorSettings.ErrorBackoffStrategy
+- uid: KubeOps.Operator.OperatorSettings.HttpPort
+  name: HttpPort
+  href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_HttpPort
+  commentId: P:KubeOps.Operator.OperatorSettings.HttpPort
+  fullName: KubeOps.Operator.OperatorSettings.HttpPort
+  nameWithType: OperatorSettings.HttpPort
+- uid: KubeOps.Operator.OperatorSettings.HttpPort*
+  name: HttpPort
+  href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_HttpPort_
+  commentId: Overload:KubeOps.Operator.OperatorSettings.HttpPort
+  isSpec: "True"
+  fullName: KubeOps.Operator.OperatorSettings.HttpPort
+  nameWithType: OperatorSettings.HttpPort
+- uid: KubeOps.Operator.OperatorSettings.HttpsPort
+  name: HttpsPort
+  href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_HttpsPort
+  commentId: P:KubeOps.Operator.OperatorSettings.HttpsPort
+  fullName: KubeOps.Operator.OperatorSettings.HttpsPort
+  nameWithType: OperatorSettings.HttpsPort
+- uid: KubeOps.Operator.OperatorSettings.HttpsPort*
+  name: HttpsPort
+  href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_HttpsPort_
+  commentId: Overload:KubeOps.Operator.OperatorSettings.HttpsPort
+  isSpec: "True"
+  fullName: KubeOps.Operator.OperatorSettings.HttpsPort
+  nameWithType: OperatorSettings.HttpsPort
 - uid: KubeOps.Operator.OperatorSettings.LeaderElectionCheckInterval
   name: LeaderElectionCheckInterval
   href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_LeaderElectionCheckInterval
@@ -1702,6 +1761,19 @@ references:
   isSpec: "True"
   fullName: KubeOps.Operator.OperatorSettings.LivenessEndpoint
   nameWithType: OperatorSettings.LivenessEndpoint
+- uid: KubeOps.Operator.OperatorSettings.MaxErrorRetries
+  name: MaxErrorRetries
+  href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_MaxErrorRetries
+  commentId: P:KubeOps.Operator.OperatorSettings.MaxErrorRetries
+  fullName: KubeOps.Operator.OperatorSettings.MaxErrorRetries
+  nameWithType: OperatorSettings.MaxErrorRetries
+- uid: KubeOps.Operator.OperatorSettings.MaxErrorRetries*
+  name: MaxErrorRetries
+  href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_MaxErrorRetries_
+  commentId: Overload:KubeOps.Operator.OperatorSettings.MaxErrorRetries
+  isSpec: "True"
+  fullName: KubeOps.Operator.OperatorSettings.MaxErrorRetries
+  nameWithType: OperatorSettings.MaxErrorRetries
 - uid: KubeOps.Operator.OperatorSettings.MetricsEndpoint
   name: MetricsEndpoint
   href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_MetricsEndpoint
@@ -1780,6 +1852,19 @@ references:
   isSpec: "True"
   fullName: KubeOps.Operator.OperatorSettings.WatcherHttpTimeout
   nameWithType: OperatorSettings.WatcherHttpTimeout
+- uid: KubeOps.Operator.OperatorSettings.WatcherMaxRetrySeconds
+  name: WatcherMaxRetrySeconds
+  href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_WatcherMaxRetrySeconds
+  commentId: P:KubeOps.Operator.OperatorSettings.WatcherMaxRetrySeconds
+  fullName: KubeOps.Operator.OperatorSettings.WatcherMaxRetrySeconds
+  nameWithType: OperatorSettings.WatcherMaxRetrySeconds
+- uid: KubeOps.Operator.OperatorSettings.WatcherMaxRetrySeconds*
+  name: WatcherMaxRetrySeconds
+  href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_WatcherMaxRetrySeconds_
+  commentId: Overload:KubeOps.Operator.OperatorSettings.WatcherMaxRetrySeconds
+  isSpec: "True"
+  fullName: KubeOps.Operator.OperatorSettings.WatcherMaxRetrySeconds
+  nameWithType: OperatorSettings.WatcherMaxRetrySeconds
 - uid: KubeOps.Operator.Rbac
   name: KubeOps.Operator.Rbac
   href: kube-ops/KubeOps.Operator.Rbac.html
@@ -2028,6 +2113,58 @@ references:
   commentId: T:KubeOps.Operator.Webhooks.AdmissionResult
   fullName: KubeOps.Operator.Webhooks.AdmissionResult
   nameWithType: AdmissionResult
+- uid: KubeOps.Operator.Webhooks.AdmissionResult.StatusCode
+  name: StatusCode
+  href: kube-ops/KubeOps.Operator.Webhooks.AdmissionResult.html#KubeOps_Operator_Webhooks_AdmissionResult_StatusCode
+  commentId: P:KubeOps.Operator.Webhooks.AdmissionResult.StatusCode
+  fullName: KubeOps.Operator.Webhooks.AdmissionResult.StatusCode
+  nameWithType: AdmissionResult.StatusCode
+- uid: KubeOps.Operator.Webhooks.AdmissionResult.StatusCode*
+  name: StatusCode
+  href: kube-ops/KubeOps.Operator.Webhooks.AdmissionResult.html#KubeOps_Operator_Webhooks_AdmissionResult_StatusCode_
+  commentId: Overload:KubeOps.Operator.Webhooks.AdmissionResult.StatusCode
+  isSpec: "True"
+  fullName: KubeOps.Operator.Webhooks.AdmissionResult.StatusCode
+  nameWithType: AdmissionResult.StatusCode
+- uid: KubeOps.Operator.Webhooks.AdmissionResult.StatusMessage
+  name: StatusMessage
+  href: kube-ops/KubeOps.Operator.Webhooks.AdmissionResult.html#KubeOps_Operator_Webhooks_AdmissionResult_StatusMessage
+  commentId: P:KubeOps.Operator.Webhooks.AdmissionResult.StatusMessage
+  fullName: KubeOps.Operator.Webhooks.AdmissionResult.StatusMessage
+  nameWithType: AdmissionResult.StatusMessage
+- uid: KubeOps.Operator.Webhooks.AdmissionResult.StatusMessage*
+  name: StatusMessage
+  href: kube-ops/KubeOps.Operator.Webhooks.AdmissionResult.html#KubeOps_Operator_Webhooks_AdmissionResult_StatusMessage_
+  commentId: Overload:KubeOps.Operator.Webhooks.AdmissionResult.StatusMessage
+  isSpec: "True"
+  fullName: KubeOps.Operator.Webhooks.AdmissionResult.StatusMessage
+  nameWithType: AdmissionResult.StatusMessage
+- uid: KubeOps.Operator.Webhooks.AdmissionResult.Valid
+  name: Valid
+  href: kube-ops/KubeOps.Operator.Webhooks.AdmissionResult.html#KubeOps_Operator_Webhooks_AdmissionResult_Valid
+  commentId: P:KubeOps.Operator.Webhooks.AdmissionResult.Valid
+  fullName: KubeOps.Operator.Webhooks.AdmissionResult.Valid
+  nameWithType: AdmissionResult.Valid
+- uid: KubeOps.Operator.Webhooks.AdmissionResult.Valid*
+  name: Valid
+  href: kube-ops/KubeOps.Operator.Webhooks.AdmissionResult.html#KubeOps_Operator_Webhooks_AdmissionResult_Valid_
+  commentId: Overload:KubeOps.Operator.Webhooks.AdmissionResult.Valid
+  isSpec: "True"
+  fullName: KubeOps.Operator.Webhooks.AdmissionResult.Valid
+  nameWithType: AdmissionResult.Valid
+- uid: KubeOps.Operator.Webhooks.AdmissionResult.Warnings
+  name: Warnings
+  href: kube-ops/KubeOps.Operator.Webhooks.AdmissionResult.html#KubeOps_Operator_Webhooks_AdmissionResult_Warnings
+  commentId: P:KubeOps.Operator.Webhooks.AdmissionResult.Warnings
+  fullName: KubeOps.Operator.Webhooks.AdmissionResult.Warnings
+  nameWithType: AdmissionResult.Warnings
+- uid: KubeOps.Operator.Webhooks.AdmissionResult.Warnings*
+  name: Warnings
+  href: kube-ops/KubeOps.Operator.Webhooks.AdmissionResult.html#KubeOps_Operator_Webhooks_AdmissionResult_Warnings_
+  commentId: Overload:KubeOps.Operator.Webhooks.AdmissionResult.Warnings
+  isSpec: "True"
+  fullName: KubeOps.Operator.Webhooks.AdmissionResult.Warnings
+  nameWithType: AdmissionResult.Warnings
 - uid: KubeOps.Operator.Webhooks.IAdmissionWebhook`2
   name: IAdmissionWebhook<TEntity, TResult>
   href: kube-ops/KubeOps.Operator.Webhooks.IAdmissionWebhook-2.html

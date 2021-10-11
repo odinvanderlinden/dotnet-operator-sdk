@@ -253,10 +253,10 @@ namespace KubeOps.TestOperator.Test
             _factory.Run();
             var mock = _factory.Services.GetRequiredService&lt;Mock&lt;IManager&gt;&gt;();
             mock.Reset();
-            mock.Setup(o =&gt; o.Created(It.IsAny&lt;V1TestEntity&gt;()));
-            mock.Verify(o =&gt; o.Created(It.IsAny&lt;V1TestEntity&gt;()), Times.Never);
-            await _factory.EnqueueEvent(ResourceEventType.Created, new V1TestEntity());
-            mock.Verify(o =&gt; o.Created(It.IsAny&lt;V1TestEntity&gt;()), Times.Once);
+            mock.Setup(o =&gt; o.Reconciled(It.IsAny&lt;V1TestEntity&gt;()));
+            mock.Verify(o =&gt; o.Reconciled(It.IsAny&lt;V1TestEntity&gt;()), Times.Never);
+            await _factory.EnqueueEvent(ResourceEventType.Reconcile, new V1TestEntity());
+            mock.Verify(o =&gt; o.Reconciled(It.IsAny&lt;V1TestEntity&gt;()), Times.Once);
         }
 
         [Fact]
@@ -265,10 +265,10 @@ namespace KubeOps.TestOperator.Test
             _factory.Run();
             var mock = _factory.Services.GetRequiredService&lt;Mock&lt;IManager&gt;&gt;();
             mock.Reset();
-            mock.Setup(o =&gt; o.Updated(It.IsAny&lt;V1TestEntity&gt;()));
-            mock.Verify(o =&gt; o.Updated(It.IsAny&lt;V1TestEntity&gt;()), Times.Never);
-            await _factory.EnqueueEvent(ResourceEventType.Updated, new V1TestEntity());
-            mock.Verify(o =&gt; o.Updated(It.IsAny&lt;V1TestEntity&gt;()), Times.Once);
+            mock.Setup(o =&gt; o.Reconciled(It.IsAny&lt;V1TestEntity&gt;()));
+            mock.Verify(o =&gt; o.Reconciled(It.IsAny&lt;V1TestEntity&gt;()), Times.Never);
+            await _factory.EnqueueEvent(ResourceEventType.Reconcile, new V1TestEntity());
+            mock.Verify(o =&gt; o.Reconciled(It.IsAny&lt;V1TestEntity&gt;()), Times.Once);
         }
 
         [Fact]
@@ -277,10 +277,10 @@ namespace KubeOps.TestOperator.Test
             _factory.Run();
             var mock = _factory.Services.GetRequiredService&lt;Mock&lt;IManager&gt;&gt;();
             mock.Reset();
-            mock.Setup(o =&gt; o.NotModified(It.IsAny&lt;V1TestEntity&gt;()));
-            mock.Verify(o =&gt; o.NotModified(It.IsAny&lt;V1TestEntity&gt;()), Times.Never);
-            await _factory.EnqueueEvent(ResourceEventType.NotModified, new V1TestEntity());
-            mock.Verify(o =&gt; o.NotModified(It.IsAny&lt;V1TestEntity&gt;()), Times.Once);
+            mock.Setup(o =&gt; o.Reconciled(It.IsAny&lt;V1TestEntity&gt;()));
+            mock.Verify(o =&gt; o.Reconciled(It.IsAny&lt;V1TestEntity&gt;()), Times.Never);
+            await _factory.EnqueueEvent(ResourceEventType.Reconcile, new V1TestEntity());
+            mock.Verify(o =&gt; o.Reconciled(It.IsAny&lt;V1TestEntity&gt;()), Times.Once);
         }
 
         [Fact]

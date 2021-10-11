@@ -159,11 +159,9 @@ public class FooCtrl : IResourceController&lt;MyCustomEntity&gt;
     // Implement the needed methods here.
     // The interface provides default implementation which do a NOOP.
     // Possible overwrites:
-    // &quot;Created&quot; (i.e. when the operator sees the entity for the first time),
-    // &quot;Updated&quot; (i.e. when the operator knows the entity and it was updated),
-    // &quot;NotModified&quot; (i.e. when nothing changed but a timed requeue happend),
-    // &quot;StatusModified&quot; (i.e. when only the status was updated),
-    // &quot;Deleted&quot; (i.e. when the entity was deleted and all finalizers are done)
+    // &quot;ReconcileAsync&quot;: when the operator sees the entity for the first time, it was modified or just fired an event,
+    // &quot;StatusModifiedAsync&quot; (i.e. when only the status was updated),
+    // &quot;DeletedAsync&quot; (i.e. when the entity was deleted and all finalizers are done)
 }
 </code></pre><h2 id="namespaced-controller">Namespaced controller</h2>
 <p>To limit the operator (and therefore all controllers) to a specific
@@ -195,7 +193,8 @@ which takes a list of api groups, resources, versions and a selection of
 <a class="xref" href="../kube-ops/KubeOps.Operator.Rbac.RbacVerb.html">RbacVerb</a>s to configure the rbac rule:</p>
 <pre><code class="lang-csharp">[GenericRbac(Groups = new {&quot;apps&quot;}, Resources = new {&quot;deployments&quot;}, Verbs = RbacVerb.All)]
 </code></pre><h2 id="requeue">Requeue</h2>
-<p>The controller&#39;s methods have a return value of <a class="xref" href="../kube-ops/KubeOps.Operator.Controller.Results.ResourceControllerResult.html">ResourceControllerResult</a>.
+<p>The controller&#39;s methods (reconcile) have
+a return value of <a class="xref" href="../kube-ops/KubeOps.Operator.Controller.Results.ResourceControllerResult.html">ResourceControllerResult</a>.
 There are multiple ways how a result of a controller can be created:</p>
 <ul>
 <li><code>null</code>: The controller will not requeue your entity / event.</li>

@@ -36,7 +36,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/controller.html",
-          "hash": "Ksh3L+XG5d3e1S6KrokdcQ9hw/u+LxVyCEWcBGP7cWY="
+          "hash": "Jl3iNljp5t1ofrbFrwS01pfqKQhCGtmb+kXLp/FBB4Q="
         }
       },
       "is_incremental": false,
@@ -72,7 +72,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/features.html",
-          "hash": "ZvHSxsuGlX/H/vdVpLP72d7kuidU620G4zASHBJSTiE="
+          "hash": "WNC3FoW2uXBqLgptRT6kK1qLTCvEXei6rbL+0dRpXNA="
         }
       },
       "is_incremental": false,
@@ -144,7 +144,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/testing.html",
-          "hash": "eHGGhxxfsPtmapflP7DLIgweX55QR+0AktBncUHDSrY="
+          "hash": "Esjm3fPqmgjj8Xiuqe3s8rVpzfiOoiUhZA/Id9sN6EE="
         }
       },
       "is_incremental": false,
@@ -251,7 +251,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.ApplicationBuilderExtensions.html",
-          "hash": "lg6x72opk5sX2E4KGQpjYg8fVJn9Ev8ZMOghs9In9XU="
+          "hash": "IMiP9RS7H9aj3ypTM9PFsPNAFwqtvay5BTcEY3k5ZG8="
         }
       },
       "is_incremental": false,
@@ -263,7 +263,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html",
-          "hash": "hgHCyO2lxG6WXg8OsgFRRU5mYlh5vQgOPTXh9lFO5BE="
+          "hash": "/+8EeFTasEKv9mESCTCGq2PtFYWDugAai/d27VveF3o="
         }
       },
       "is_incremental": false,
@@ -275,7 +275,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Builder.html",
-          "hash": "EBuJzlPieCpwuWLjtkC3OO5lDsABPeTLXvJ3vmZCXCM="
+          "hash": "yaCRvqlO95SHz0IeAxXhucNRGP9WzhPkRfyERe2iWNQ="
         }
       },
       "is_incremental": false,
@@ -287,7 +287,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Controller.IResourceController-1.html",
-          "hash": "xciMgGOVcxaWQqk+lO2bdmNzqass/m//fK9m66OCGIY="
+          "hash": "aD+uEJb7D6tyne4iP8pcIbI8lWYSdTxPc8dK0nOiRfE="
         }
       },
       "is_incremental": false,
@@ -299,7 +299,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Controller.Results.ResourceControllerResult.html",
-          "hash": "kx69oIKkgAkgfkY3RyWAls++8qmO9EnwU6NL9BSt2c4="
+          "hash": "6dVHyaZl8RUoP4CZzyAi/nkmHW5KhX5ZWUNQFb2pslw="
         }
       },
       "is_incremental": false,
@@ -311,7 +311,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Controller.Results.html",
-          "hash": "etN9YTVc2oJQ+fNl7KtrBGyp1RGgr6JLo8I10Tf40wQ="
+          "hash": "sk/Bg+iZR7yQAFTxcTxQjJ/4vWXoZ4P+i4NUyNhumsM="
         }
       },
       "is_incremental": false,
@@ -323,7 +323,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Controller.html",
-          "hash": "gP5BTBZc9L8+88eZ/i9eaRwV/Bzpyl6jjAdskbT12SM="
+          "hash": "DUM6DXo6PqBEdYG6MFIcICE4uq0EizGIGJJ5SJ5zwhU="
         }
       },
       "is_incremental": false,
@@ -335,7 +335,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.AdditionalPrinterColumnAttribute.html",
-          "hash": "xM14mszPVkeRQQLNSc9B+2aV5K8Oddd+KM0knekAt9E="
+          "hash": "KJpx/yVbDyO9g3SLjSa34bY0PxjuqNfhngiRFh2O884="
         }
       },
       "is_incremental": false,
@@ -347,7 +347,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.DescriptionAttribute.html",
-          "hash": "8zQEmvDf2cWe3E/7DrYjdfXpSS1+FgRU+gtFtEmwCME="
+          "hash": "sFuGVl2GQAzzK05LPIXbM9W23vqAglb38W79pJKwf0w="
         }
       },
       "is_incremental": false,
@@ -359,7 +359,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.EmbeddedResourceAttribute.html",
-          "hash": "G9LVCkTGg8/EuvcDlLHHi04Kx8OhRblTpKT2tzzXf0o="
+          "hash": "M6/Od0rYEjsN1Qe3/RJkRsiFyW5fP+xk8+B+1x2aO4k="
         }
       },
       "is_incremental": false,
@@ -371,7 +371,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.ExternalDocsAttribute.html",
-          "hash": "Moe2bBTGLHgkl9XVpD5jWNjF5oiQ6rt93mK0h2f4OvU="
+          "hash": "zbHOj+A37g/B3+mzSUbQJ8jkRwJExzlsdXC43H87QjM="
         }
       },
       "is_incremental": false,
@@ -383,7 +383,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.html",
-          "hash": "MULUg52RLcAI2aClHeZgep6WxwPw4mqt9bHfLL+ZW3U="
+          "hash": "fJ9mKKvJrgZMdNKpFiff8Bs7uhOg8V3dneat9iiOBJg="
         }
       },
       "is_incremental": false,
@@ -395,7 +395,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.IgnoreEntityAttribute.html",
-          "hash": "77v2s6xDrzKPR6NgAKwBpYzdbsCay6Jpl0Z2EXdtfVo="
+          "hash": "nsEyL4X9bzZ1rgBoqK3ga09JXU29UJN3dEGFmLOGv7s="
         }
       },
       "is_incremental": false,
@@ -407,7 +407,19 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.ItemsAttribute.html",
-          "hash": "AfCl+rinuSxwPFJ+LSrRbKR6ystpXKTfo52JYC6mUhA="
+          "hash": "oVMxGiH4PtlO85/TgcbG237AOGR/+8Ca+c/DvTixuAM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.KubernetesEntityShortNamesAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.KubernetesEntityShortNamesAttribute.html",
+          "hash": "HigFr8JLKCGPLanuUAEh/lGWKTRC4s6KfXzqB4ZNLck="
         }
       },
       "is_incremental": false,
@@ -419,7 +431,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.LengthAttribute.html",
-          "hash": "thigZYrwiKhUqkh7cFvx/SXlNhVjVFRzSxs9dbZCKtU="
+          "hash": "MA/AnEY6bTv+Ssc+GN04PkCNIf7LR7teFiKBHMl9qI8="
         }
       },
       "is_incremental": false,
@@ -431,7 +443,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.MultipleOfAttribute.html",
-          "hash": "lHVGXvmAJE9gCrCd2KjF4AEJTYMhLVoo1SouN8KEUjk="
+          "hash": "gm805HgQFNQOSxv/e1wxwODGfNGJHb314D4+1jZ6L4I="
         }
       },
       "is_incremental": false,
@@ -443,7 +455,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.PatternAttribute.html",
-          "hash": "iDDl4kyXOsfXXPKU9JMvcRpKFDARhUkhURDvwDWb5pw="
+          "hash": "BMSpMeccYAet1DC2Fe6bkHg+X4JHhR99b1kkUx4R8t4="
         }
       },
       "is_incremental": false,
@@ -455,7 +467,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.PreserveUnknownFieldsAttribute.html",
-          "hash": "cJ02d3EyQgkuQxZDj9DXqrrX1D1d4gvEUSZIQ6Iev5c="
+          "hash": "jygXv9v4AO84DSWfrzekAOyDbmyGTw6bq3R8zlA/hrk="
         }
       },
       "is_incremental": false,
@@ -467,7 +479,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.RangeMaximumAttribute.html",
-          "hash": "Uf9MAFqc80LpBCuZe7cP7614UR296vBBV9Iot5ZebNw="
+          "hash": "n3PZOLjPqAI+fE7gNP5VtPbJEcDcSsSVF3WrihY9vAM="
         }
       },
       "is_incremental": false,
@@ -479,7 +491,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.RangeMinimumAttribute.html",
-          "hash": "jU3pCBG56OdgrCZRknfRsBlnEDJzeWyzXkF2BhssAGo="
+          "hash": "UtlHE3igY5RoN1DaSgWpjSz3hdvf0vxXKPH5FkYh+lY="
         }
       },
       "is_incremental": false,
@@ -491,7 +503,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.RequiredAttribute.html",
-          "hash": "/KBut8PmK+rLaZ4Q7uPwbLHkjhXXdphJyT8fLfelprQ="
+          "hash": "g7dzu5QYJSq+0I0Qi1v2Sw1J1w/wFuymB4D3I5VcyeE="
         }
       },
       "is_incremental": false,
@@ -503,7 +515,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.StorageVersionAttribute.html",
-          "hash": "LLyXNv/uQc/qlevuLB2xQ7SX+nm6wi2AfzEXnnx0Wwg="
+          "hash": "m17xEJfCd6uLfHmFY7156tA7BeHFbOiwTkRCp7CDE4Y="
         }
       },
       "is_incremental": false,
@@ -515,7 +527,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.html",
-          "hash": "zHoVTkYlrMWI5Ey7IyZ2D/7mL2Ld2oi7L4mCMHv53I4="
+          "hash": "g4G+GBQUfcsMlkH0VfDqAhyeZVPCKnuZgdcMz3EbMWM="
         }
       },
       "is_incremental": false,
@@ -527,7 +539,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Entities.CustomKubernetesEntity-1.html",
-          "hash": "V1JtMTu60AnDHHZkRV1zaL2eoda3PANZSB6ycQ2yxDs="
+          "hash": "hz93+dZyz9pu1qRXs4K0eF39ZR09B6iJAwkExFF3j74="
         }
       },
       "is_incremental": false,
@@ -539,7 +551,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Entities.CustomKubernetesEntity-2.html",
-          "hash": "uU13LJ6lTjwNL/+QmNA0CurD9U3VL4RPrKSXayAuD5k="
+          "hash": "Sp2szkO/f7KZ0JBmXTXrZ5znaB099BroxXA7T+y//M0="
         }
       },
       "is_incremental": false,
@@ -551,7 +563,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Entities.CustomKubernetesEntity.html",
-          "hash": "0OckIYouLk6rFx0pL0gmw0/YL4QHTQjbojab6EctW8Q="
+          "hash": "N5fyteptPEvBeNY0ViPbMttZiNMlUik9cZ+Bu9e1l/c="
         }
       },
       "is_incremental": false,
@@ -563,7 +575,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Entities.EntityList-1.html",
-          "hash": "xRlyq561h98YUKzMzAyuj6HKRrD5seZ71n98xLk1lOc="
+          "hash": "p2NaolaS0EWJ7vBkg/kd7pZLtwShoH+b9+cPdPiqf0M="
         }
       },
       "is_incremental": false,
@@ -575,7 +587,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.html",
-          "hash": "ykhvp/Et6rU1mbF7zSvFWAMWI5b88LgH6tFwwU0LsOQ="
+          "hash": "PUNh4qyZxt9Mbh/86AF8CHVnv9ezsbwTp76gz8ziHjM="
         }
       },
       "is_incremental": false,
@@ -587,7 +599,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Entities.Extensions.V1SecretExtensions.html",
-          "hash": "+M9k0oCDLBYbUJ8dIGFaArPf1prEBYq2b0ZMKFR86gU="
+          "hash": "UESctuZhXsOr1FEsaKy/dlLvleSWuG3BBAClzFOmvPE="
         }
       },
       "is_incremental": false,
@@ -599,7 +611,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Entities.Extensions.html",
-          "hash": "cmO2xjnQNYNNSselUy8IJCxmcTchKLtrdxXUKkJc4uk="
+          "hash": "pKkGLDy/AKSU0PyzhyEjPJz89d+R3uTTNgsEjapHf2E="
         }
       },
       "is_incremental": false,
@@ -611,7 +623,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationConfig.html",
-          "hash": "wFO1S8V3BYtZy6gDLDjvdIRaqrp+0DjYRgJozrW/ock="
+          "hash": "OFJetmjz7Qbq0oCRftZnYikhVhX/S1O2O0bphWx87kg="
         }
       },
       "is_incremental": false,
@@ -623,7 +635,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.html",
-          "hash": "j4LRZkMQYVEZsC2aTXfmKql+I0PkfqneEyZC9v9+Uzw="
+          "hash": "2iU0CUZlytHK4ymvgkDkU9Tyd+ohPG82lkqIEdk1JRY="
         }
       },
       "is_incremental": false,
@@ -635,7 +647,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationImage.html",
-          "hash": "InYwrRkA0dPddTtWx5iSA013IwsxuQpbSEh0q+QloWY="
+          "hash": "qZHSiguHgBAieAYOJ2q0DTJ2Un3DIxnbv/2bnrI8H88="
         }
       },
       "is_incremental": false,
@@ -647,7 +659,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Entities.Kustomize.html",
-          "hash": "zh29vGj9KUvBohXx+Dc04baNoLZB5mo74LYzbcYKW+8="
+          "hash": "H+6yRtIO33xV2PwjQBxoOS1wrm62OdkP5aikFYJeYvs="
         }
       },
       "is_incremental": false,
@@ -659,7 +671,43 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Entities.html",
-          "hash": "1paOsFXpcj3qlunUhx3yFrkoMvmyQSeC1PN9HhvsJ6M="
+          "hash": "vXVjawSbmiaM/Gv8uGzXMuu6dSxMRsN8caGgYpOF8iw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "kube-ops/KubeOps.Operator.Errors.BackoffStrategies.yml",
+      "output": {
+        ".html": {
+          "relative_path": "kube-ops/KubeOps.Operator.Errors.BackoffStrategies.html",
+          "hash": "77V8cKcChOGZ1DnE6QelZNbh7BomKi99IFaOF8c6Rv0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "kube-ops/KubeOps.Operator.Errors.BackoffStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "kube-ops/KubeOps.Operator.Errors.BackoffStrategy.html",
+          "hash": "j5+dL4j0fM9uv7mCmhn2sI+OSvRiVpnOZQwzIglG+qI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "kube-ops/KubeOps.Operator.Errors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "kube-ops/KubeOps.Operator.Errors.html",
+          "hash": "mfgLn8hsA2AqHmP39WCTdCZM6M9idB+zHLJPFrrgYwQ="
         }
       },
       "is_incremental": false,
@@ -671,7 +719,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Events.EventType.html",
-          "hash": "2Bkq4/I79v+z93r+5K1aLAei7G2coiRdOCJb7S2Zpks="
+          "hash": "ui03qZ45vRbOu/yk6G0FW0GjU6op5oJz0OYEVJLqK/o="
         }
       },
       "is_incremental": false,
@@ -683,7 +731,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Events.IEventManager.AsyncMessagePublisher.html",
-          "hash": "hbcEuhP4zc+2bAIH8I5vbJ9UB6TGpmZfRm7Ud+PSWNM="
+          "hash": "J3de688Av10z/NE/aTj9XiNHybduPcBx7eg3vnS8RsA="
         }
       },
       "is_incremental": false,
@@ -695,7 +743,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Events.IEventManager.AsyncPublisher.html",
-          "hash": "VZmtyzClTrCbTMQhh6xQG4x/RRDk2WDewKKg6Ksqt3M="
+          "hash": "1bomjcr6d4RoO4VmxSUsUnEyDdPhroxTZZtS9IuC48M="
         }
       },
       "is_incremental": false,
@@ -707,7 +755,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Events.IEventManager.AsyncStaticPublisher.html",
-          "hash": "J3oN+RkVEjQH4LzWgNrTbjYcuBAX1GiwAurK+OqM0kA="
+          "hash": "G709PL/GAX3srbVl7DKMqdqWaXwybd2/or0rv47BFOI="
         }
       },
       "is_incremental": false,
@@ -719,7 +767,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Events.IEventManager.html",
-          "hash": "ZtxP98LeNqIKFLklfcS+IiLYv6eQq589Su5AQ0QGQ7Y="
+          "hash": "dHc4gQuLiJr3QURu6njyRN9aejgnRP12lmfYkxDKvCk="
         }
       },
       "is_incremental": false,
@@ -731,7 +779,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Events.html",
-          "hash": "WdiL3ddzkjZh7HGO3czoahuug5y3vBcw+kMtIbyC1zM="
+          "hash": "A/VXORp0hGHzIHMfHKWSQZa/5A4GBXLZD9HRmMV2S78="
         }
       },
       "is_incremental": false,
@@ -743,7 +791,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Finalizer.IFinalizerManager-1.html",
-          "hash": "yhpWIOSXe9VMF0MSg+mDqq99cI6ptLagicFjg5Hf8eU="
+          "hash": "f51+/v5+4fziaJPdK4wbzY8cX9L8oLDDrgMFfsnQDl8="
         }
       },
       "is_incremental": false,
@@ -755,7 +803,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Finalizer.IResourceFinalizer-1.html",
-          "hash": "0GPP7FFgUscyp6+A37vboxGbVDRWafvqNDXCV1rII3Q="
+          "hash": "8odM92ZoNekYT7ODIvO00daSEOrWmZMeC3gUNlXd6AY="
         }
       },
       "is_incremental": false,
@@ -767,7 +815,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Finalizer.html",
-          "hash": "ayg7MJdu/B7P/D2kd1FB7cIsvWXc+NMsVu4dazGFXvM="
+          "hash": "UW0dzpNg9o673LON6alWC08gZdNl5wnbHbB68e7jpd4="
         }
       },
       "is_incremental": false,
@@ -779,7 +827,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.HostExtensions.html",
-          "hash": "An9FptLovLYSDuuhVGXKNldtm34FDQks56DjuUZ1X4w="
+          "hash": "rrji4/GAb9GBY6nKpCHRsJzrzmhTGt2ubI7vsHO4JbY="
         }
       },
       "is_incremental": false,
@@ -791,7 +839,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Kubernetes.ResourceEventType.html",
-          "hash": "NIfCiRgsylh+pXyQwJMflV/8TeCvRQMjcZl2dbknPbs="
+          "hash": "dHrIOV8Ip7NiU9UtPvhNilC/58YRbW4WmswxgE4kcHo="
         }
       },
       "is_incremental": false,
@@ -803,7 +851,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Kubernetes.html",
-          "hash": "5q1R33Tu8+Shg3lRCct39vyR8tib52Pz7Xi8inqw3KI="
+          "hash": "UpWtYWc4Dt99wF8HQcvY8jEqeIUgJ2O4YqFv29rvtIs="
         }
       },
       "is_incremental": false,
@@ -815,7 +863,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Leadership.ILeaderElection.html",
-          "hash": "+ueVMgHtcogjlxFTDzHbOgcDxdv4D1fNr70I6X5Gdj8="
+          "hash": "Xtb1mAaRFPPFjTYmskJGf7teQnXkl/FF6D6U+GJP+8Q="
         }
       },
       "is_incremental": false,
@@ -827,7 +875,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Leadership.LeaderState.html",
-          "hash": "zRZNXZCKgnnKJAj5ECzWTYucEHPWHuq1/UJEWM1ECKY="
+          "hash": "wgQGgAxuuh7GV8O6PSz5AHYWGxz3xK0JCjYA9qQLa1w="
         }
       },
       "is_incremental": false,
@@ -839,7 +887,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Leadership.html",
-          "hash": "E5rrhMpKyP2CqcjufLdHvzde1JzxODF9VIolDejRp8E="
+          "hash": "NYYnMIlyOAGX+EgkPEZePupVaDlh1rOGN1vR7thIpeQ="
         }
       },
       "is_incremental": false,
@@ -851,7 +899,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.OperatorBuilderExtensions.html",
-          "hash": "CMoORfD8n/QTi5J42/5xzOwIW0g5Y65t5fceWTpaIiM="
+          "hash": "T7bXtmhMAo3+pUSYlyBbR7phJtUnSHy+dtckuRiWzaQ="
         }
       },
       "is_incremental": false,
@@ -863,7 +911,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.OperatorSettings.html",
-          "hash": "/unaV6vTCU1lDs0JAa9ZMnbBg8mY8hnzwLTwQxhuenk="
+          "hash": "KhRjUAl2Agi4+RKlTvr1iSdIRkAQOpO915M1GMrS46s="
         }
       },
       "is_incremental": false,
@@ -875,7 +923,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Rbac.EntityRbacAttribute.html",
-          "hash": "fi6WTLb5fm57sJ6HDt3zj2yFrlOjU0QOMII7u/u8O+I="
+          "hash": "8ZJ73FZp27QTrC+7cO7nORk1mN7TbeVsP3Tfm6k2gjQ="
         }
       },
       "is_incremental": false,
@@ -887,7 +935,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Rbac.GenericRbacAttribute.html",
-          "hash": "X9KtIFlJeTP2yp8VJcfLw/5E11e/gbBWuOeS4C0jFCo="
+          "hash": "YJgkicl696X4n+144NQ1e51wvmRjsDyy4d06dI+ZreU="
         }
       },
       "is_incremental": false,
@@ -899,7 +947,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Rbac.RbacVerb.html",
-          "hash": "JBN0mBLbvmPeRj8VG46SwlYCb3zgmSz7/s3PHAsk72E="
+          "hash": "Trsz9ZRkuJq0rTC7dBSqyZVCpn5ZR9EaoRDPpKeEfj4="
         }
       },
       "is_incremental": false,
@@ -911,7 +959,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Rbac.html",
-          "hash": "i+2JNNx9l7a4HjmEwJrnl8ZJqg93110Ty9qRsFDJ/8k="
+          "hash": "rslkuZB2+VNgEIyzKqt7gbWuw+LnKC4Zg0kAJLm0Q5o="
         }
       },
       "is_incremental": false,
@@ -923,7 +971,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.ServiceCollectionExtensions.html",
-          "hash": "n+KLNublqG+6uk1CflOyDsTOeVtZnm78pR5EliyvlyA="
+          "hash": "JxIH01BYpFCBD2BygXnnCDgCSm0+2L3Q8rbVtPmDyJo="
         }
       },
       "is_incremental": false,
@@ -935,7 +983,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Webhooks.AdmissionOperations.html",
-          "hash": "8jgmZZ117haHssMm64+UBiL8gC1ib0CaorwIlEOWB+M="
+          "hash": "C4eS5+WGbuvP7sZ2v/7EiPt9PCA+Kg89h6RWaojWKO4="
         }
       },
       "is_incremental": false,
@@ -947,7 +995,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Webhooks.AdmissionResult.html",
-          "hash": "jHAWCsVzQ+sx6vn9DhR4zdctmdaAVnpqzpUQtRxS45s="
+          "hash": "gKuOIzu8QklyMr2gLbyAIsWGlrxJH6Y6DXs5AM26uVw="
         }
       },
       "is_incremental": false,
@@ -959,7 +1007,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Webhooks.IAdmissionWebhook-2.html",
-          "hash": "f8GF2w86wMwcbVSPTp4FVtFO/2nAvQ7+ngaw5zvrqCo="
+          "hash": "EUwbSmjNCYYr0N837frIEJxLMEu/74N58nLdiR+e4/Q="
         }
       },
       "is_incremental": false,
@@ -971,7 +1019,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Webhooks.IMutationWebhook-1.html",
-          "hash": "h3vJE6xO9yiViSpVhHbK9woYzc+wavu/D8ul0Ywp9n4="
+          "hash": "U00VtiJi1BNkinTP8p6f/UQVRs8JTXnRwveUbLJnAVQ="
         }
       },
       "is_incremental": false,
@@ -983,7 +1031,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Webhooks.IValidationWebhook-1.html",
-          "hash": "rnPVK0Hau9KldAdIhNk9z445CAx9QkEFrv/Ea7j5TnU="
+          "hash": "qola54kfcS4c5Lr95/KM5nxEnarQdRv2HjTQG6ljEyk="
         }
       },
       "is_incremental": false,
@@ -995,7 +1043,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Webhooks.MutationResult.html",
-          "hash": "Yl/PoDIcydwsBIo4zjAElT7NMTeww4y+gw3J0i4Oe7g="
+          "hash": "yS0Ou180TWiwzLSx1s6E/eLMyzf8coLooDMkRGDx0DI="
         }
       },
       "is_incremental": false,
@@ -1007,7 +1055,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Webhooks.ValidationResult.html",
-          "hash": "/U8bXiqom+ELToih5uVc1c9wMt0S+vJ5Lfm8xT7xa9E="
+          "hash": "8UbUbdzbN7sJ+xl/syTCP/0dq7jbqlJB6yzUGGOENCc="
         }
       },
       "is_incremental": false,
@@ -1019,7 +1067,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Webhooks.html",
-          "hash": "52yL6TRUc0MunXLhovi+NHyGVY0JSjcbKvfjzOaXls0="
+          "hash": "qJqnxFQidzqSfeURDnZ0LyOfHSe+uKQ921ZuWvG/qWc="
         }
       },
       "is_incremental": false,
@@ -1031,7 +1079,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.html",
-          "hash": "9ckPxSc41kGOgWS7+eUn7Py+MYTd+jYcvkM3moJpGd4="
+          "hash": "Vvfj8kosrD/0pSY54HXdeCjgVwNK6ZIcnYigVByYO44="
         }
       },
       "is_incremental": false,
@@ -1043,7 +1091,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/index.html",
-          "hash": "k0mAjT4E+IqBDHTquln4cDhxZ6p0NldgSzUifR1KFPs="
+          "hash": "3nJVU5LCGK1h/SX/FpN3xaE+XfLjCEHatvqqqt7x0cg="
         }
       },
       "is_incremental": false,
@@ -1070,7 +1118,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 69,
+          "total_file_count": 73,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

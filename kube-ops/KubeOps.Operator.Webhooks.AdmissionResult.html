@@ -180,6 +180,9 @@
                             <a href="KubeOps.Operator.Entities.Annotations.ItemsAttribute.html" title="ItemsAttribute" class="">ItemsAttribute</a>
                           </li>
                           <li class="">
+                            <a href="KubeOps.Operator.Entities.Annotations.KubernetesEntityShortNamesAttribute.html" title="KubernetesEntityShortNamesAttribute" class="">KubernetesEntityShortNamesAttribute</a>
+                          </li>
+                          <li class="">
                             <a href="KubeOps.Operator.Entities.Annotations.LengthAttribute.html" title="LengthAttribute" class="">LengthAttribute</a>
                           </li>
                           <li class="">
@@ -229,6 +232,18 @@
                           </li>
                           <li class="">
                             <a href="KubeOps.Operator.Entities.Kustomize.KustomizationImage.html" title="KustomizationImage" class="">KustomizationImage</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="KubeOps.Operator.Errors.html" title="KubeOps.Operator.Errors" class="">KubeOps.Operator.Errors</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="KubeOps.Operator.Errors.BackoffStrategies.html" title="BackoffStrategies" class="">BackoffStrategies</a>
+                          </li>
+                          <li class="">
+                            <a href="KubeOps.Operator.Errors.BackoffStrategy.html" title="BackoffStrategy" class="">BackoffStrategy</a>
                           </li>
                         </ul>  </li>
                     <li class="">
@@ -379,6 +394,139 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class AdmissionResult</code></pre>
   </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Webhooks_AdmissionResult_StatusCode.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Webhooks.AdmissionResult.StatusCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Webhooks/AdmissionResult.cs/#L26">View Source</a>
+  </span>
+  <a id="KubeOps_Operator_Webhooks_AdmissionResult_StatusCode_" data-uid="KubeOps.Operator.Webhooks.AdmissionResult.StatusCode*"></a>
+  <h4 id="KubeOps_Operator_Webhooks_AdmissionResult_StatusCode" data-uid="KubeOps.Operator.Webhooks.AdmissionResult.StatusCode">StatusCode</h4>
+  <div class="markdown level1 summary"><p>Provides a (http) status code for Kubernetes for an admission result.
+This field may be used to provide additional information to the
+user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? StatusCode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Webhooks_AdmissionResult_StatusMessage.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Webhooks.AdmissionResult.StatusMessage%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Webhooks/AdmissionResult.cs/#L32">View Source</a>
+  </span>
+  <a id="KubeOps_Operator_Webhooks_AdmissionResult_StatusMessage_" data-uid="KubeOps.Operator.Webhooks.AdmissionResult.StatusMessage*"></a>
+  <h4 id="KubeOps_Operator_Webhooks_AdmissionResult_StatusMessage" data-uid="KubeOps.Operator.Webhooks.AdmissionResult.StatusMessage">StatusMessage</h4>
+  <div class="markdown level1 summary"><p>Provide an additional status message for the admission result.
+This provides additional information for the user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string StatusMessage { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Webhooks_AdmissionResult_Valid.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Webhooks.AdmissionResult.Valid%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Webhooks/AdmissionResult.cs/#L19">View Source</a>
+  </span>
+  <a id="KubeOps_Operator_Webhooks_AdmissionResult_Valid_" data-uid="KubeOps.Operator.Webhooks.AdmissionResult.Valid*"></a>
+  <h4 id="KubeOps_Operator_Webhooks_AdmissionResult_Valid" data-uid="KubeOps.Operator.Webhooks.AdmissionResult.Valid">Valid</h4>
+  <div class="markdown level1 summary"><p>Determines if the result of the admission webhook is
+either valid or invalid.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Valid { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Webhooks_AdmissionResult_Warnings.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Webhooks.AdmissionResult.Warnings%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Webhooks/AdmissionResult.cs/#L40">View Source</a>
+  </span>
+  <a id="KubeOps_Operator_Webhooks_AdmissionResult_Warnings_" data-uid="KubeOps.Operator.Webhooks.AdmissionResult.Warnings*"></a>
+  <h4 id="KubeOps_Operator_Webhooks_AdmissionResult_Warnings" data-uid="KubeOps.Operator.Webhooks.AdmissionResult.Warnings">Warnings</h4>
+  <div class="markdown level1 summary"><p>Despite being &quot;valid&quot;, the validation can add a list of warnings to the user.
+If this is not yet supported by the cluster, the field is ignored.
+Warnings may contain up to 256 characters but they should be limited to 120 characters.
+If more than 4096 characters are submitted, additional messages are ignored.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IList&lt;string&gt; Warnings { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

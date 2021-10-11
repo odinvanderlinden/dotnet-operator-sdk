@@ -180,6 +180,9 @@
                             <a href="KubeOps.Operator.Entities.Annotations.ItemsAttribute.html" title="ItemsAttribute" class="">ItemsAttribute</a>
                           </li>
                           <li class="">
+                            <a href="KubeOps.Operator.Entities.Annotations.KubernetesEntityShortNamesAttribute.html" title="KubernetesEntityShortNamesAttribute" class="">KubernetesEntityShortNamesAttribute</a>
+                          </li>
+                          <li class="">
                             <a href="KubeOps.Operator.Entities.Annotations.LengthAttribute.html" title="LengthAttribute" class="">LengthAttribute</a>
                           </li>
                           <li class="">
@@ -229,6 +232,18 @@
                           </li>
                           <li class="">
                             <a href="KubeOps.Operator.Entities.Kustomize.KustomizationImage.html" title="KustomizationImage" class="">KustomizationImage</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="KubeOps.Operator.Errors.html" title="KubeOps.Operator.Errors" class="">KubeOps.Operator.Errors</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="KubeOps.Operator.Errors.BackoffStrategies.html" title="BackoffStrategies" class="">BackoffStrategies</a>
+                          </li>
+                          <li class="">
+                            <a href="KubeOps.Operator.Errors.BackoffStrategy.html" title="BackoffStrategy" class="">BackoffStrategy</a>
                           </li>
                         </ul>  </li>
                     <li class="">
@@ -370,62 +385,10 @@ This interface is primarily used for generic type help.</p>
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Controller_IResourceController_1_CreatedAsync__0_.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Controller.IResourceController%601.CreatedAsync(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Controller/IResourceController{TEntity}.cs/#L26">View Source</a>
-  </span>
-  <a id="KubeOps_Operator_Controller_IResourceController_1_CreatedAsync_" data-uid="KubeOps.Operator.Controller.IResourceController`1.CreatedAsync*"></a>
-  <h4 id="KubeOps_Operator_Controller_IResourceController_1_CreatedAsync__0_" data-uid="KubeOps.Operator.Controller.IResourceController`1.CreatedAsync(`0)">CreatedAsync(TEntity)</h4>
-  <div class="markdown level1 summary"><p>Called for <a class="xref" href="KubeOps.Operator.Kubernetes.ResourceEventType.html#KubeOps_Operator_Kubernetes_ResourceEventType_Created">Created</a> events for a given entity.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">virtual Task&lt;ResourceControllerResult&gt; CreatedAsync(TEntity entity)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TEntity</span></td>
-        <td><span class="parametername">entity</span></td>
-        <td><p>The entity that fired the created event.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="KubeOps.Operator.Controller.Results.ResourceControllerResult.html">ResourceControllerResult</a>&gt;</td>
-        <td><p>A task with an optional <a class="xref" href="KubeOps.Operator.Controller.Results.ResourceControllerResult.html">ResourceControllerResult</a>.
-Use the static constructors on the <a class="xref" href="KubeOps.Operator.Controller.Results.ResourceControllerResult.html">ResourceControllerResult</a> class
-to create your controller function result.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Controller_IResourceController_1_DeletedAsync__0_.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Controller.IResourceController%601.DeletedAsync(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Controller/IResourceController{TEntity}.cs/#L70">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Controller/IResourceController{TEntity}.cs/#L46">View Source</a>
   </span>
   <a id="KubeOps_Operator_Controller_IResourceController_1_DeletedAsync_" data-uid="KubeOps.Operator.Controller.IResourceController`1.DeletedAsync*"></a>
   <h4 id="KubeOps_Operator_Controller_IResourceController_1_DeletedAsync__0_" data-uid="KubeOps.Operator.Controller.IResourceController`1.DeletedAsync(`0)">DeletedAsync(TEntity)</h4>
@@ -472,19 +435,19 @@ to create your controller function result.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Controller_IResourceController_1_NotModifiedAsync__0_.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Controller.IResourceController%601.NotModifiedAsync(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Controller_IResourceController_1_ReconcileAsync__0_.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Controller.IResourceController%601.ReconcileAsync(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Controller/IResourceController{TEntity}.cs/#L50">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Controller/IResourceController{TEntity}.cs/#L26">View Source</a>
   </span>
-  <a id="KubeOps_Operator_Controller_IResourceController_1_NotModifiedAsync_" data-uid="KubeOps.Operator.Controller.IResourceController`1.NotModifiedAsync*"></a>
-  <h4 id="KubeOps_Operator_Controller_IResourceController_1_NotModifiedAsync__0_" data-uid="KubeOps.Operator.Controller.IResourceController`1.NotModifiedAsync(`0)">NotModifiedAsync(TEntity)</h4>
-  <div class="markdown level1 summary"><p>Called for <a class="xref" href="KubeOps.Operator.Kubernetes.ResourceEventType.html#KubeOps_Operator_Kubernetes_ResourceEventType_NotModified">NotModified</a> events for a given entity.</p>
+  <a id="KubeOps_Operator_Controller_IResourceController_1_ReconcileAsync_" data-uid="KubeOps.Operator.Controller.IResourceController`1.ReconcileAsync*"></a>
+  <h4 id="KubeOps_Operator_Controller_IResourceController_1_ReconcileAsync__0_" data-uid="KubeOps.Operator.Controller.IResourceController`1.ReconcileAsync(`0)">ReconcileAsync(TEntity)</h4>
+  <div class="markdown level1 summary"><p>Called for <a class="xref" href="KubeOps.Operator.Kubernetes.ResourceEventType.html#KubeOps_Operator_Kubernetes_ResourceEventType_Reconcile">Reconcile</a> events for a given entity.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">virtual Task&lt;ResourceControllerResult&gt; NotModifiedAsync(TEntity entity)</code></pre>
+    <pre><code class="lang-csharp hljs">virtual Task&lt;ResourceControllerResult&gt; ReconcileAsync(TEntity entity)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -499,7 +462,7 @@ to create your controller function result.</p>
       <tr>
         <td><span class="xref">TEntity</span></td>
         <td><span class="parametername">entity</span></td>
-        <td><p>The entity that fired the not-modified event.</p>
+        <td><p>The entity that fired the reconcile event.</p>
 </td>
       </tr>
     </tbody>
@@ -527,7 +490,7 @@ to create your controller function result.</p>
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Controller_IResourceController_1_StatusModifiedAsync__0_.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Controller.IResourceController%601.StatusModifiedAsync(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Controller/IResourceController{TEntity}.cs/#L60">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Controller/IResourceController{TEntity}.cs/#L36">View Source</a>
   </span>
   <a id="KubeOps_Operator_Controller_IResourceController_1_StatusModifiedAsync_" data-uid="KubeOps.Operator.Controller.IResourceController`1.StatusModifiedAsync*"></a>
   <h4 id="KubeOps_Operator_Controller_IResourceController_1_StatusModifiedAsync__0_" data-uid="KubeOps.Operator.Controller.IResourceController`1.StatusModifiedAsync(`0)">StatusModifiedAsync(TEntity)</h4>
@@ -568,58 +531,6 @@ to create your controller function result.</p>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
         <td><p>A task that completes, when the reconciliation is done.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Controller_IResourceController_1_UpdatedAsync__0_.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Controller.IResourceController%601.UpdatedAsync(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Controller/IResourceController{TEntity}.cs/#L38">View Source</a>
-  </span>
-  <a id="KubeOps_Operator_Controller_IResourceController_1_UpdatedAsync_" data-uid="KubeOps.Operator.Controller.IResourceController`1.UpdatedAsync*"></a>
-  <h4 id="KubeOps_Operator_Controller_IResourceController_1_UpdatedAsync__0_" data-uid="KubeOps.Operator.Controller.IResourceController`1.UpdatedAsync(`0)">UpdatedAsync(TEntity)</h4>
-  <div class="markdown level1 summary"><p>Called for <a class="xref" href="KubeOps.Operator.Kubernetes.ResourceEventType.html#KubeOps_Operator_Kubernetes_ResourceEventType_Updated">Updated</a> events for a given entity.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">virtual Task&lt;ResourceControllerResult&gt; UpdatedAsync(TEntity entity)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TEntity</span></td>
-        <td><span class="parametername">entity</span></td>
-        <td><p>The entity that fired the updated event.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="KubeOps.Operator.Controller.Results.ResourceControllerResult.html">ResourceControllerResult</a>&gt;</td>
-        <td><p>A task with an optional <a class="xref" href="KubeOps.Operator.Controller.Results.ResourceControllerResult.html">ResourceControllerResult</a>.
-Use the static constructors on the <a class="xref" href="KubeOps.Operator.Controller.Results.ResourceControllerResult.html">ResourceControllerResult</a> class
-to create your controller function result.</p>
 </td>
       </tr>
     </tbody>

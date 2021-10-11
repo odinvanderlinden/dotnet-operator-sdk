@@ -180,6 +180,9 @@
                             <a href="KubeOps.Operator.Entities.Annotations.ItemsAttribute.html" title="ItemsAttribute" class="">ItemsAttribute</a>
                           </li>
                           <li class="">
+                            <a href="KubeOps.Operator.Entities.Annotations.KubernetesEntityShortNamesAttribute.html" title="KubernetesEntityShortNamesAttribute" class="">KubernetesEntityShortNamesAttribute</a>
+                          </li>
+                          <li class="">
                             <a href="KubeOps.Operator.Entities.Annotations.LengthAttribute.html" title="LengthAttribute" class="">LengthAttribute</a>
                           </li>
                           <li class="">
@@ -229,6 +232,18 @@
                           </li>
                           <li class="">
                             <a href="KubeOps.Operator.Entities.Kustomize.KustomizationImage.html" title="KustomizationImage" class="">KustomizationImage</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="KubeOps.Operator.Errors.html" title="KubeOps.Operator.Errors" class="">KubeOps.Operator.Errors</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="KubeOps.Operator.Errors.BackoffStrategies.html" title="BackoffStrategies" class="">BackoffStrategies</a>
+                          </li>
+                          <li class="">
+                            <a href="KubeOps.Operator.Errors.BackoffStrategy.html" title="BackoffStrategy" class="">BackoffStrategy</a>
                           </li>
                         </ul>  </li>
                     <li class="">
@@ -359,11 +374,6 @@
     <thead>
     <tbody>
       <tr>
-        <td id="KubeOps_Operator_Kubernetes_ResourceEventType_Created">Created</td>
-        <td><p>Fired when a resource (even requeued) is new to the system.</p>
-</td>
-      </tr>
-      <tr>
         <td id="KubeOps_Operator_Kubernetes_ResourceEventType_Deleted">Deleted</td>
         <td><p>Fired when a resource was removed from the system.</p>
 </td>
@@ -379,18 +389,13 @@
 </td>
       </tr>
       <tr>
-        <td id="KubeOps_Operator_Kubernetes_ResourceEventType_NotModified">NotModified</td>
-        <td><p>Fired when a resource (even requeued) has not changed.</p>
+        <td id="KubeOps_Operator_Kubernetes_ResourceEventType_Reconcile">Reconcile</td>
+        <td><p>Fired when a resource (even requeued) is catched by the watcher and needs to be reconciled.</p>
 </td>
       </tr>
       <tr>
         <td id="KubeOps_Operator_Kubernetes_ResourceEventType_StatusUpdated">StatusUpdated</td>
         <td><p>Fired when the status part of a resource changed but nothing else.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="KubeOps_Operator_Kubernetes_ResourceEventType_Updated">Updated</td>
-        <td><p>Fired when a resource (even requeued) has changed in the system.</p>
 </td>
       </tr>
     </tbody>

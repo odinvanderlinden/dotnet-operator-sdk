@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Delegate IEventManager.AsyncMessagePublisher
+    <title>Namespace KubeOps.Operator.Errors
    | KubeOps Documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Delegate IEventManager.AsyncMessagePublisher
+    <meta name="title" content="Namespace KubeOps.Operator.Errors
    | KubeOps Documentation ">
     <meta name="generator" content="docfx 2.58.4.0">
     
@@ -234,9 +234,9 @@
                             <a href="KubeOps.Operator.Entities.Kustomize.KustomizationImage.html" title="KustomizationImage" class="">KustomizationImage</a>
                           </li>
                         </ul>  </li>
-                    <li class="">
+                    <li class="active">
                       <span class="expand-stub"></span>
-                      <a href="KubeOps.Operator.Errors.html" title="KubeOps.Operator.Errors" class="">KubeOps.Operator.Errors</a>
+                      <a href="KubeOps.Operator.Errors.html" title="KubeOps.Operator.Errors" class="active">KubeOps.Operator.Errors</a>
                         
                         <ul class="nav level2">
                           <li class="">
@@ -257,8 +257,8 @@
                           <li class="">
                             <a href="KubeOps.Operator.Events.IEventManager.html" title="IEventManager" class="">IEventManager</a>
                           </li>
-                          <li class="active">
-                            <a href="KubeOps.Operator.Events.IEventManager.AsyncMessagePublisher.html" title="IEventManager.AsyncMessagePublisher" class="active">IEventManager.AsyncMessagePublisher</a>
+                          <li class="">
+                            <a href="KubeOps.Operator.Events.IEventManager.AsyncMessagePublisher.html" title="IEventManager.AsyncMessagePublisher" class="">IEventManager.AsyncMessagePublisher</a>
                           </li>
                           <li class="">
                             <a href="KubeOps.Operator.Events.IEventManager.AsyncPublisher.html" title="IEventManager.AsyncPublisher" class="">IEventManager.AsyncPublisher</a>
@@ -349,63 +349,24 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="KubeOps.Operator.Events.IEventManager.AsyncMessagePublisher">
+            <article class="content wrap" id="_content" data-uid="KubeOps.Operator.Errors">
   
-  
-  <h1 id="KubeOps_Operator_Events_IEventManager_AsyncMessagePublisher" data-uid="KubeOps.Operator.Events.IEventManager.AsyncMessagePublisher" class="text-break">Delegate IEventManager.AsyncMessagePublisher
+  <h1 id="KubeOps_Operator_Errors" data-uid="KubeOps.Operator.Errors" class="text-break">Namespace KubeOps.Operator.Errors
   </h1>
-  <div class="markdown level0 summary"><p>Delegate that publishes a given message to a predefined reason/severity.
-This delegate should be created with <a class="xref" href="KubeOps.Operator.Events.IEventManager.html#KubeOps_Operator_Events_IEventManager_CreatePublisher_System_String_KubeOps_Operator_Events_EventType_">CreatePublisher(String, EventType)</a>
-When called with the resource and a message, the publisher creates or updates the event
-given by the params.</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="KubeOps.Operator.Events.html">KubeOps.Operator.Events</a></h6>
-  <h6><strong>Assembly</strong>: KubeOps.dll</h6>
-  <h5 id="KubeOps_Operator_Events_IEventManager_AsyncMessagePublisher_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public delegate Task AsyncMessagePublisher(IKubernetesObject&lt;V1ObjectMeta&gt; resource, string message);</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">k8s.IKubernetesObject</span>&lt;<span class="xref">k8s.Models.V1ObjectMeta</span>&gt;</td>
-        <td><span class="parametername">resource</span></td>
-        <td><p>The resource on which the event should be published.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">message</span></td>
-        <td><p>The message that the event should contain.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
-        <td><p>A task that completes when the event is published.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
+  <div class="markdown level0 remarks"></div>
+    <h3 id="classes">Classes
+  </h3>
+      <h4><a class="xref" href="KubeOps.Operator.Errors.BackoffStrategies.html">BackoffStrategies</a></h4>
+      <section><p>Class that holds <a class="xref" href="KubeOps.Operator.Errors.BackoffStrategy.html">BackoffStrategy</a> that are used in
+defaults.</p>
+</section>
+    <h3 id="delegates">Delegates
+  </h3>
+      <h4><a class="xref" href="KubeOps.Operator.Errors.BackoffStrategy.html">BackoffStrategy</a></h4>
+      <section><p>Delegate that describes a backoff strategy on errors for the operator.</p>
+</section>
 </article>
           </div>
           
@@ -413,12 +374,6 @@ given by the params.</p>
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
-                  <li>
-                    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Events_IEventManager_AsyncMessagePublisher.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Events.IEventManager.AsyncMessagePublisher%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Events/IEventManager.cs/#L41" class="contribution-link">View Source</a>
-                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

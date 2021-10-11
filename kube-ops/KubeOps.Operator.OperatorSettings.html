@@ -180,6 +180,9 @@
                             <a href="KubeOps.Operator.Entities.Annotations.ItemsAttribute.html" title="ItemsAttribute" class="">ItemsAttribute</a>
                           </li>
                           <li class="">
+                            <a href="KubeOps.Operator.Entities.Annotations.KubernetesEntityShortNamesAttribute.html" title="KubernetesEntityShortNamesAttribute" class="">KubernetesEntityShortNamesAttribute</a>
+                          </li>
+                          <li class="">
                             <a href="KubeOps.Operator.Entities.Annotations.LengthAttribute.html" title="LengthAttribute" class="">LengthAttribute</a>
                           </li>
                           <li class="">
@@ -229,6 +232,18 @@
                           </li>
                           <li class="">
                             <a href="KubeOps.Operator.Entities.Kustomize.KustomizationImage.html" title="KustomizationImage" class="">KustomizationImage</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="KubeOps.Operator.Errors.html" title="KubeOps.Operator.Errors" class="">KubeOps.Operator.Errors</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="KubeOps.Operator.Errors.BackoffStrategies.html" title="BackoffStrategies" class="">BackoffStrategies</a>
+                          </li>
+                          <li class="">
+                            <a href="KubeOps.Operator.Errors.BackoffStrategy.html" title="BackoffStrategy" class="">BackoffStrategy</a>
                           </li>
                         </ul>  </li>
                     <li class="">
@@ -384,7 +399,7 @@
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_OperatorSettings_DefaultRequeueAsSameType.md&amp;value=---%0Auid%3A%20KubeOps.Operator.OperatorSettings.DefaultRequeueAsSameType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/OperatorSettings.cs/#L112">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/OperatorSettings.cs/#L135">View Source</a>
   </span>
   <a id="KubeOps_Operator_OperatorSettings_DefaultRequeueAsSameType_" data-uid="KubeOps.Operator.OperatorSettings.DefaultRequeueAsSameType*"></a>
   <h4 id="KubeOps_Operator_OperatorSettings_DefaultRequeueAsSameType" data-uid="KubeOps.Operator.OperatorSettings.DefaultRequeueAsSameType">DefaultRequeueAsSameType</h4>
@@ -422,7 +437,7 @@ again as &quot;Created&quot; instead of (for example) &quot;NotModified&quot;.
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_OperatorSettings_EnableAssemblyScanning.md&amp;value=---%0Auid%3A%20KubeOps.Operator.OperatorSettings.EnableAssemblyScanning%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/OperatorSettings.cs/#L120">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/OperatorSettings.cs/#L143">View Source</a>
   </span>
   <a id="KubeOps_Operator_OperatorSettings_EnableAssemblyScanning_" data-uid="KubeOps.Operator.OperatorSettings.EnableAssemblyScanning*"></a>
   <h4 id="KubeOps_Operator_OperatorSettings_EnableAssemblyScanning" data-uid="KubeOps.Operator.OperatorSettings.EnableAssemblyScanning">EnableAssemblyScanning</h4>
@@ -456,7 +471,7 @@ finalizers, mutators and validators.
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_OperatorSettings_EnableLeaderElection.md&amp;value=---%0Auid%3A%20KubeOps.Operator.OperatorSettings.EnableLeaderElection%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/OperatorSettings.cs/#L71">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/OperatorSettings.cs/#L94">View Source</a>
   </span>
   <a id="KubeOps_Operator_OperatorSettings_EnableLeaderElection_" data-uid="KubeOps.Operator.OperatorSettings.EnableLeaderElection*"></a>
   <h4 id="KubeOps_Operator_OperatorSettings_EnableLeaderElection" data-uid="KubeOps.Operator.OperatorSettings.EnableLeaderElection">EnableLeaderElection</h4>
@@ -494,10 +509,111 @@ This could be disabled when developing locally.
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_OperatorSettings_ErrorBackoffStrategy.md&amp;value=---%0Auid%3A%20KubeOps.Operator.OperatorSettings.ErrorBackoffStrategy%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/OperatorSettings.cs/#L64">View Source</a>
+  </span>
+  <a id="KubeOps_Operator_OperatorSettings_ErrorBackoffStrategy_" data-uid="KubeOps.Operator.OperatorSettings.ErrorBackoffStrategy*"></a>
+  <h4 id="KubeOps_Operator_OperatorSettings_ErrorBackoffStrategy" data-uid="KubeOps.Operator.OperatorSettings.ErrorBackoffStrategy">ErrorBackoffStrategy</h4>
+  <div class="markdown level1 summary"><p>Configures the <a class="xref" href="KubeOps.Operator.Errors.BackoffStrategy.html">BackoffStrategy</a> for error events during reconciliation.
+When the controller faces an error, it waits for the returned amount of time of this strategy
+and retries until the controller drops the event configured by <a class="xref" href="KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_MaxErrorRetries">MaxErrorRetries</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BackoffStrategy ErrorBackoffStrategy { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="KubeOps.Operator.Errors.BackoffStrategy.html">BackoffStrategy</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_OperatorSettings_HttpPort.md&amp;value=---%0Auid%3A%20KubeOps.Operator.OperatorSettings.HttpPort%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/OperatorSettings.cs/#L151">View Source</a>
+  </span>
+  <a id="KubeOps_Operator_OperatorSettings_HttpPort_" data-uid="KubeOps.Operator.OperatorSettings.HttpPort*"></a>
+  <h4 id="KubeOps_Operator_OperatorSettings_HttpPort" data-uid="KubeOps.Operator.OperatorSettings.HttpPort">HttpPort</h4>
+  <div class="markdown level1 summary"><p>The configured http port that the operator should run
+on Kubernetes. This has no direct impact on the startup call in <code>Program.cs</code>,
+but on the generated yaml files of the operator. This setting modifies
+the environment variable &quot;KESTREL__ENDPOINTS__HTTP__URL&quot; in the yaml file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public short HttpPort { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int16">Int16</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_OperatorSettings_HttpsPort.md&amp;value=---%0Auid%3A%20KubeOps.Operator.OperatorSettings.HttpsPort%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/OperatorSettings.cs/#L159">View Source</a>
+  </span>
+  <a id="KubeOps_Operator_OperatorSettings_HttpsPort_" data-uid="KubeOps.Operator.OperatorSettings.HttpsPort*"></a>
+  <h4 id="KubeOps_Operator_OperatorSettings_HttpsPort" data-uid="KubeOps.Operator.OperatorSettings.HttpsPort">HttpsPort</h4>
+  <div class="markdown level1 summary"><p>The configured https port that the operator should run
+on Kubernetes. This has no direct impact on the startup call in <code>Program.cs</code>,
+but on the generated yaml files of the operator. This setting modifies
+the environment variable &quot;KESTREL__ENDPOINTS__HTTPS__URL&quot; in the yaml file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public short HttpsPort { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int16">Int16</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_OperatorSettings_LeaderElectionCheckInterval.md&amp;value=---%0Auid%3A%20KubeOps.Operator.OperatorSettings.LeaderElectionCheckInterval%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/OperatorSettings.cs/#L77">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/OperatorSettings.cs/#L100">View Source</a>
   </span>
   <a id="KubeOps_Operator_OperatorSettings_LeaderElectionCheckInterval_" data-uid="KubeOps.Operator.OperatorSettings.LeaderElectionCheckInterval*"></a>
   <h4 id="KubeOps_Operator_OperatorSettings_LeaderElectionCheckInterval" data-uid="KubeOps.Operator.OperatorSettings.LeaderElectionCheckInterval">LeaderElectionCheckInterval</h4>
@@ -529,7 +645,7 @@ will check for leader election.</p>
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_OperatorSettings_LeaderElectionLeaseDuration.md&amp;value=---%0Auid%3A%20KubeOps.Operator.OperatorSettings.LeaderElectionLeaseDuration%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/OperatorSettings.cs/#L82">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/OperatorSettings.cs/#L105">View Source</a>
   </span>
   <a id="KubeOps_Operator_OperatorSettings_LeaderElectionLeaseDuration_" data-uid="KubeOps.Operator.OperatorSettings.LeaderElectionLeaseDuration*"></a>
   <h4 id="KubeOps_Operator_OperatorSettings_LeaderElectionLeaseDuration" data-uid="KubeOps.Operator.OperatorSettings.LeaderElectionLeaseDuration">LeaderElectionLeaseDuration</h4>
@@ -560,7 +676,7 @@ will check for leader election.</p>
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_OperatorSettings_LivenessEndpoint.md&amp;value=---%0Auid%3A%20KubeOps.Operator.OperatorSettings.LivenessEndpoint%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/OperatorSettings.cs/#L51">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/OperatorSettings.cs/#L74">View Source</a>
   </span>
   <a id="KubeOps_Operator_OperatorSettings_LivenessEndpoint_" data-uid="KubeOps.Operator.OperatorSettings.LivenessEndpoint*"></a>
   <h4 id="KubeOps_Operator_OperatorSettings_LivenessEndpoint" data-uid="KubeOps.Operator.OperatorSettings.LivenessEndpoint">LivenessEndpoint</h4>
@@ -588,10 +704,44 @@ will check for leader election.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_OperatorSettings_MaxErrorRetries.md&amp;value=---%0Auid%3A%20KubeOps.Operator.OperatorSettings.MaxErrorRetries%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/OperatorSettings.cs/#L50">View Source</a>
+  </span>
+  <a id="KubeOps_Operator_OperatorSettings_MaxErrorRetries_" data-uid="KubeOps.Operator.OperatorSettings.MaxErrorRetries*"></a>
+  <h4 id="KubeOps_Operator_OperatorSettings_MaxErrorRetries" data-uid="KubeOps.Operator.OperatorSettings.MaxErrorRetries">MaxErrorRetries</h4>
+  <div class="markdown level1 summary"><p>The maximal number of retries for an error during reconciliation.
+The controller skips the reconciliation event if an entity throws errors during
+reconciliation. Depending on the <a class="xref" href="KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_ErrorBackoffStrategy">ErrorBackoffStrategy</a>, this could
+result in endless waiting times.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int MaxErrorRetries { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_OperatorSettings_MetricsEndpoint.md&amp;value=---%0Auid%3A%20KubeOps.Operator.OperatorSettings.MetricsEndpoint%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/OperatorSettings.cs/#L46">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/OperatorSettings.cs/#L69">View Source</a>
   </span>
   <a id="KubeOps_Operator_OperatorSettings_MetricsEndpoint_" data-uid="KubeOps.Operator.OperatorSettings.MetricsEndpoint*"></a>
   <h4 id="KubeOps_Operator_OperatorSettings_MetricsEndpoint" data-uid="KubeOps.Operator.OperatorSettings.MetricsEndpoint">MetricsEndpoint</h4>
@@ -622,7 +772,7 @@ will check for leader election.</p>
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_OperatorSettings_Name.md&amp;value=---%0Auid%3A%20KubeOps.Operator.OperatorSettings.Name%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/OperatorSettings.cs/#L23">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/OperatorSettings.cs/#L24">View Source</a>
   </span>
   <a id="KubeOps_Operator_OperatorSettings_Name_" data-uid="KubeOps.Operator.OperatorSettings.Name*"></a>
   <h4 id="KubeOps_Operator_OperatorSettings_Name" data-uid="KubeOps.Operator.OperatorSettings.Name">Name</h4>
@@ -653,7 +803,7 @@ will check for leader election.</p>
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_OperatorSettings_Namespace.md&amp;value=---%0Auid%3A%20KubeOps.Operator.OperatorSettings.Namespace%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/OperatorSettings.cs/#L41">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/OperatorSettings.cs/#L42">View Source</a>
   </span>
   <a id="KubeOps_Operator_OperatorSettings_Namespace_" data-uid="KubeOps.Operator.OperatorSettings.Namespace*"></a>
   <h4 id="KubeOps_Operator_OperatorSettings_Namespace" data-uid="KubeOps.Operator.OperatorSettings.Namespace">Namespace</h4>
@@ -693,7 +843,7 @@ method of the <span class="xref">DotnetKubernetesClient.IKubernetesClient</span>
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_OperatorSettings_PreloadCache.md&amp;value=---%0Auid%3A%20KubeOps.Operator.OperatorSettings.PreloadCache%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/OperatorSettings.cs/#L100">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/OperatorSettings.cs/#L123">View Source</a>
   </span>
   <a id="KubeOps_Operator_OperatorSettings_PreloadCache_" data-uid="KubeOps.Operator.OperatorSettings.PreloadCache*"></a>
   <h4 id="KubeOps_Operator_OperatorSettings_PreloadCache" data-uid="KubeOps.Operator.OperatorSettings.PreloadCache">PreloadCache</h4>
@@ -732,7 +882,7 @@ during downtime of the operator.
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_OperatorSettings_ReadinessEndpoint.md&amp;value=---%0Auid%3A%20KubeOps.Operator.OperatorSettings.ReadinessEndpoint%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/OperatorSettings.cs/#L56">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/OperatorSettings.cs/#L79">View Source</a>
   </span>
   <a id="KubeOps_Operator_OperatorSettings_ReadinessEndpoint_" data-uid="KubeOps.Operator.OperatorSettings.ReadinessEndpoint*"></a>
   <h4 id="KubeOps_Operator_OperatorSettings_ReadinessEndpoint" data-uid="KubeOps.Operator.OperatorSettings.ReadinessEndpoint">ReadinessEndpoint</h4>
@@ -763,7 +913,7 @@ during downtime of the operator.
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_OperatorSettings_WatcherHttpTimeout.md&amp;value=---%0Auid%3A%20KubeOps.Operator.OperatorSettings.WatcherHttpTimeout%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/OperatorSettings.cs/#L87">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/OperatorSettings.cs/#L110">View Source</a>
   </span>
   <a id="KubeOps_Operator_OperatorSettings_WatcherHttpTimeout_" data-uid="KubeOps.Operator.OperatorSettings.WatcherHttpTimeout*"></a>
   <h4 id="KubeOps_Operator_OperatorSettings_WatcherHttpTimeout" data-uid="KubeOps.Operator.OperatorSettings.WatcherHttpTimeout">WatcherHttpTimeout</h4>
@@ -789,6 +939,39 @@ during downtime of the operator.
       </tr>
     </tbody>
   </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_OperatorSettings_WatcherMaxRetrySeconds.md&amp;value=---%0Auid%3A%20KubeOps.Operator.OperatorSettings.WatcherMaxRetrySeconds%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/OperatorSettings.cs/#L57">View Source</a>
+  </span>
+  <a id="KubeOps_Operator_OperatorSettings_WatcherMaxRetrySeconds_" data-uid="KubeOps.Operator.OperatorSettings.WatcherMaxRetrySeconds*"></a>
+  <h4 id="KubeOps_Operator_OperatorSettings_WatcherMaxRetrySeconds" data-uid="KubeOps.Operator.OperatorSettings.WatcherMaxRetrySeconds">WatcherMaxRetrySeconds</h4>
+  <div class="markdown level1 summary"><p>The maximal number of seconds that the resource watcher waits until it retries to connect to Kubernetes.
+The amount of time is determined by <a class="xref" href="KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_ErrorBackoffStrategy">ErrorBackoffStrategy</a> and the minimal value of
+the calculated one and this configuration is used.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int WatcherMaxRetrySeconds { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
@@ -800,7 +983,7 @@ during downtime of the operator.
                     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_OperatorSettings.md&amp;value=---%0Auid%3A%20KubeOps.Operator.OperatorSettings%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/OperatorSettings.cs/#L15" class="contribution-link">View Source</a>
+                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/OperatorSettings.cs/#L16" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
