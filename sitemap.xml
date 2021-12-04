@@ -2,541 +2,541 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/docs/advanced.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/docs/commands.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/docs/controller.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/docs/entities.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/docs/events.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/docs/features.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/docs/finalizer.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/docs/getting_started.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/docs/ms_build.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/docs/settings.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/docs/templates.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/docs/testing.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/docs/utilities.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/docs/webhooks.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/index.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/index.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.ApplicationBuilderExtensions.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Builder.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Controller.IResourceController-1.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Controller.Results.ResourceControllerResult.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Controller.Results.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Controller.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Entities.Annotations.AdditionalPrinterColumnAttribute.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Entities.Annotations.DescriptionAttribute.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Entities.Annotations.EmbeddedResourceAttribute.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Entities.Annotations.ExternalDocsAttribute.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Entities.Annotations.IgnoreEntityAttribute.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Entities.Annotations.ItemsAttribute.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Entities.Annotations.KubernetesEntityShortNamesAttribute.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Entities.Annotations.LengthAttribute.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Entities.Annotations.MultipleOfAttribute.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Entities.Annotations.PatternAttribute.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Entities.Annotations.PreserveUnknownFieldsAttribute.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Entities.Annotations.RangeMaximumAttribute.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Entities.Annotations.RangeMinimumAttribute.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Entities.Annotations.RequiredAttribute.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Entities.Annotations.StorageVersionAttribute.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Entities.Annotations.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Entities.CustomKubernetesEntity.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Entities.CustomKubernetesEntity-1.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Entities.CustomKubernetesEntity-2.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Entities.EntityList-1.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Entities.Extensions.V1SecretExtensions.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Entities.Extensions.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationConfig.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationImage.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Entities.Kustomize.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Entities.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Errors.BackoffStrategies.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Errors.BackoffStrategy.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Errors.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Events.EventType.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Events.IEventManager.AsyncMessagePublisher.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Events.IEventManager.AsyncPublisher.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Events.IEventManager.AsyncStaticPublisher.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Events.IEventManager.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Events.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Finalizer.IFinalizerManager-1.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Finalizer.IResourceFinalizer-1.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Finalizer.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.HostExtensions.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Kubernetes.ResourceEventType.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Kubernetes.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Leadership.ILeaderElection.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Leadership.LeaderState.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Leadership.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.OperatorBuilderExtensions.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.OperatorSettings.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Rbac.EntityRbacAttribute.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Rbac.GenericRbacAttribute.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Rbac.RbacVerb.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Rbac.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.ServiceCollectionExtensions.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Webhooks.AdmissionOperations.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Webhooks.AdmissionResult.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Webhooks.IAdmissionWebhook-2.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Webhooks.IMutationWebhook-1.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Webhooks.IValidationWebhook-1.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Webhooks.MutationResult.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Webhooks.ValidationResult.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.Webhooks.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops/KubeOps.Operator.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops-testing/index.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops-testing/KubeOps.Testing.KubernetesOperatorFactory-1.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buehler.github.io/dotnet-operator-sdk/kube-ops-testing/KubeOps.Testing.html</loc>
-    <lastmod>2021-11-26T11:23:48+00:00</lastmod>
+    <lastmod>2021-12-04T02:03:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
