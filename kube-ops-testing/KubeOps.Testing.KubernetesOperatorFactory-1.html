@@ -123,6 +123,7 @@
   <div classs="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iasyncdisposable">IAsyncDisposable</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -163,6 +164,9 @@
       <a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.testing.webapplicationfactory-1.dispose#Microsoft_AspNetCore_Mvc_Testing_WebApplicationFactory_1_Dispose_System_Boolean_">WebApplicationFactory&lt;TTestStartup&gt;.Dispose(Boolean)</a>
     </div>
     <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.testing.webapplicationfactory-1.disposeasync#Microsoft_AspNetCore_Mvc_Testing_WebApplicationFactory_1_DisposeAsync">WebApplicationFactory&lt;TTestStartup&gt;.DisposeAsync()</a>
+    </div>
+    <div>
       <a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.testing.webapplicationfactory-1.server#Microsoft_AspNetCore_Mvc_Testing_WebApplicationFactory_1_Server">WebApplicationFactory&lt;TTestStartup&gt;.Server</a>
     </div>
     <div>
@@ -200,7 +204,7 @@
   <h6><strong>Assembly</strong>: KubeOps.Testing.dll</h6>
   <h5 id="KubeOps_Testing_KubernetesOperatorFactory_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class KubernetesOperatorFactory&lt;TTestStartup&gt; : WebApplicationFactory&lt;TTestStartup&gt;, IDisposable where TTestStartup : class</code></pre>
+    <pre><code class="lang-csharp hljs">public class KubernetesOperatorFactory&lt;TTestStartup&gt; : WebApplicationFactory&lt;TTestStartup&gt;, IDisposable, IAsyncDisposable where TTestStartup : class</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -526,6 +530,9 @@ event queues.</p>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">System.IDisposable</a>
+  </div>
+  <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iasyncdisposable">System.IAsyncDisposable</a>
   </div>
 </article>
           </div>
