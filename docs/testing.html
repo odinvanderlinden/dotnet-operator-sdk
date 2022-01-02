@@ -171,31 +171,31 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Moq;
 
-namespace KubeOps.TestOperator.Test
+namespace KubeOps.TestOperator.Test;
+
+public class TestStartup
 {
-    public class TestStartup
+    public void ConfigureServices(IServiceCollection services)
     {
-        public void ConfigureServices(IServiceCollection services)
-        {
-            services
-                .AddKubernetesOperator(s =&gt;
+        services
+            .AddKubernetesOperator(
+                s =&gt;
                 {
                     s.Name = &quot;test-operator&quot;;
                     s.EnableAssemblyScanning = false;
                 })
-                .AddController&lt;TestController&gt;()
-                .AddFinalizer&lt;TestEntityFinalizer&gt;()
-                .AddValidationWebhook&lt;TestValidator&gt;()
-                .AddMutationWebhook&lt;TestMutator&gt;();
+            .AddController&lt;TestController&gt;()
+            .AddFinalizer&lt;TestEntityFinalizer&gt;()
+            .AddValidationWebhook&lt;TestValidator&gt;()
+            .AddMutationWebhook&lt;TestMutator&gt;();
 
-            services.AddSingleton(new Mock&lt;IManager&gt;());
-            services.AddSingleton(typeof(IManager), provider =&gt; provider.GetRequiredService&lt;Mock&lt;IManager&gt;&gt;().Object);
-        }
+        services.AddSingleton(new Mock&lt;IManager&gt;());
+        services.AddSingleton(typeof(IManager), provider =&gt; provider.GetRequiredService&lt;Mock&lt;IManager&gt;&gt;().Object);
+    }
 
-        public void Configure(IApplicationBuilder app)
-        {
-            app.UseKubernetesOperator();
-        }
+    public void Configure(IApplicationBuilder app)
+    {
+        app.UseKubernetesOperator();
     }
 }
 </code></pre><h2 id="mocked-elements">Mocked elements</h2>
@@ -236,76 +236,75 @@ using Microsoft.Extensions.DependencyInjection;
 using Moq;
 using Xunit;
 
-namespace KubeOps.TestOperator.Test
+namespace KubeOps.TestOperator.Test;
+
+public class TestControllerTest : IClassFixture&lt;KubernetesOperatorFactory&lt;TestStartup&gt;&gt;
 {
-    public class TestControllerTest : IClassFixture&lt;KubernetesOperatorFactory&lt;TestStartup&gt;&gt;
+    private readonly KubernetesOperatorFactory&lt;TestStartup&gt; _factory;
+
+    public TestControllerTest(KubernetesOperatorFactory&lt;TestStartup&gt; factory)
     {
-        private readonly KubernetesOperatorFactory&lt;TestStartup&gt; _factory;
+        _factory = factory.WithSolutionRelativeContentRoot(&quot;tests/KubeOps.TestOperator&quot;);
+    }
 
-        public TestControllerTest(KubernetesOperatorFactory&lt;TestStartup&gt; factory)
-        {
-            _factory = factory.WithSolutionRelativeContentRoot(&quot;tests/KubeOps.TestOperator&quot;);
-        }
+    [Fact]
+    public async Task Test_If_Manager_Created_Is_Called()
+    {
+        _factory.Run();
+        var mock = _factory.Services.GetRequiredService&lt;Mock&lt;IManager&gt;&gt;();
+        mock.Reset();
+        mock.Setup(o =&gt; o.Reconciled(It.IsAny&lt;V1TestEntity&gt;()));
+        mock.Verify(o =&gt; o.Reconciled(It.IsAny&lt;V1TestEntity&gt;()), Times.Never);
+        await _factory.EnqueueEvent(ResourceEventType.Reconcile, new V1TestEntity());
+        mock.Verify(o =&gt; o.Reconciled(It.IsAny&lt;V1TestEntity&gt;()), Times.Once);
+    }
 
-        [Fact]
-        public async Task Test_If_Manager_Created_Is_Called()
-        {
-            _factory.Run();
-            var mock = _factory.Services.GetRequiredService&lt;Mock&lt;IManager&gt;&gt;();
-            mock.Reset();
-            mock.Setup(o =&gt; o.Reconciled(It.IsAny&lt;V1TestEntity&gt;()));
-            mock.Verify(o =&gt; o.Reconciled(It.IsAny&lt;V1TestEntity&gt;()), Times.Never);
-            await _factory.EnqueueEvent(ResourceEventType.Reconcile, new V1TestEntity());
-            mock.Verify(o =&gt; o.Reconciled(It.IsAny&lt;V1TestEntity&gt;()), Times.Once);
-        }
+    [Fact]
+    public async Task Test_If_Manager_Updated_Is_Called()
+    {
+        _factory.Run();
+        var mock = _factory.Services.GetRequiredService&lt;Mock&lt;IManager&gt;&gt;();
+        mock.Reset();
+        mock.Setup(o =&gt; o.Reconciled(It.IsAny&lt;V1TestEntity&gt;()));
+        mock.Verify(o =&gt; o.Reconciled(It.IsAny&lt;V1TestEntity&gt;()), Times.Never);
+        await _factory.EnqueueEvent(ResourceEventType.Reconcile, new V1TestEntity());
+        mock.Verify(o =&gt; o.Reconciled(It.IsAny&lt;V1TestEntity&gt;()), Times.Once);
+    }
 
-        [Fact]
-        public async Task Test_If_Manager_Updated_Is_Called()
-        {
-            _factory.Run();
-            var mock = _factory.Services.GetRequiredService&lt;Mock&lt;IManager&gt;&gt;();
-            mock.Reset();
-            mock.Setup(o =&gt; o.Reconciled(It.IsAny&lt;V1TestEntity&gt;()));
-            mock.Verify(o =&gt; o.Reconciled(It.IsAny&lt;V1TestEntity&gt;()), Times.Never);
-            await _factory.EnqueueEvent(ResourceEventType.Reconcile, new V1TestEntity());
-            mock.Verify(o =&gt; o.Reconciled(It.IsAny&lt;V1TestEntity&gt;()), Times.Once);
-        }
+    [Fact]
+    public async Task Test_If_Manager_NotModified_Is_Called()
+    {
+        _factory.Run();
+        var mock = _factory.Services.GetRequiredService&lt;Mock&lt;IManager&gt;&gt;();
+        mock.Reset();
+        mock.Setup(o =&gt; o.Reconciled(It.IsAny&lt;V1TestEntity&gt;()));
+        mock.Verify(o =&gt; o.Reconciled(It.IsAny&lt;V1TestEntity&gt;()), Times.Never);
+        await _factory.EnqueueEvent(ResourceEventType.Reconcile, new V1TestEntity());
+        mock.Verify(o =&gt; o.Reconciled(It.IsAny&lt;V1TestEntity&gt;()), Times.Once);
+    }
 
-        [Fact]
-        public async Task Test_If_Manager_NotModified_Is_Called()
-        {
-            _factory.Run();
-            var mock = _factory.Services.GetRequiredService&lt;Mock&lt;IManager&gt;&gt;();
-            mock.Reset();
-            mock.Setup(o =&gt; o.Reconciled(It.IsAny&lt;V1TestEntity&gt;()));
-            mock.Verify(o =&gt; o.Reconciled(It.IsAny&lt;V1TestEntity&gt;()), Times.Never);
-            await _factory.EnqueueEvent(ResourceEventType.Reconcile, new V1TestEntity());
-            mock.Verify(o =&gt; o.Reconciled(It.IsAny&lt;V1TestEntity&gt;()), Times.Once);
-        }
+    [Fact]
+    public async Task Test_If_Manager_StatusModified_Is_Called()
+    {
+        _factory.Run();
+        var mock = _factory.Services.GetRequiredService&lt;Mock&lt;IManager&gt;&gt;();
+        mock.Reset();
+        mock.Setup(o =&gt; o.StatusModified(It.IsAny&lt;V1TestEntity&gt;()));
+        mock.Verify(o =&gt; o.StatusModified(It.IsAny&lt;V1TestEntity&gt;()), Times.Never);
+        await _factory.EnqueueEvent(ResourceEventType.StatusUpdated, new V1TestEntity());
+        mock.Verify(o =&gt; o.StatusModified(It.IsAny&lt;V1TestEntity&gt;()), Times.Once);
+    }
 
-        [Fact]
-        public async Task Test_If_Manager_StatusModified_Is_Called()
-        {
-            _factory.Run();
-            var mock = _factory.Services.GetRequiredService&lt;Mock&lt;IManager&gt;&gt;();
-            mock.Reset();
-            mock.Setup(o =&gt; o.StatusModified(It.IsAny&lt;V1TestEntity&gt;()));
-            mock.Verify(o =&gt; o.StatusModified(It.IsAny&lt;V1TestEntity&gt;()), Times.Never);
-            await _factory.EnqueueEvent(ResourceEventType.StatusUpdated, new V1TestEntity());
-            mock.Verify(o =&gt; o.StatusModified(It.IsAny&lt;V1TestEntity&gt;()), Times.Once);
-        }
-
-        [Fact]
-        public async Task Test_If_Manager_Deleted_Is_Called()
-        {
-            _factory.Run();
-            var mock = _factory.Services.GetRequiredService&lt;Mock&lt;IManager&gt;&gt;();
-            mock.Reset();
-            mock.Setup(o =&gt; o.Deleted(It.IsAny&lt;V1TestEntity&gt;()));
-            mock.Verify(o =&gt; o.Deleted(It.IsAny&lt;V1TestEntity&gt;()), Times.Never);
-            await _factory.EnqueueEvent(ResourceEventType.Deleted, new V1TestEntity());
-            mock.Verify(o =&gt; o.Deleted(It.IsAny&lt;V1TestEntity&gt;()), Times.Once);
-        }
+    [Fact]
+    public async Task Test_If_Manager_Deleted_Is_Called()
+    {
+        _factory.Run();
+        var mock = _factory.Services.GetRequiredService&lt;Mock&lt;IManager&gt;&gt;();
+        mock.Reset();
+        mock.Setup(o =&gt; o.Deleted(It.IsAny&lt;V1TestEntity&gt;()));
+        mock.Verify(o =&gt; o.Deleted(It.IsAny&lt;V1TestEntity&gt;()), Times.Never);
+        await _factory.EnqueueEvent(ResourceEventType.Deleted, new V1TestEntity());
+        mock.Verify(o =&gt; o.Deleted(It.IsAny&lt;V1TestEntity&gt;()), Times.Once);
     }
 }
 </code></pre></article>

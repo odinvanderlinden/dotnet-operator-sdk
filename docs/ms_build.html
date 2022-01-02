@@ -145,14 +145,14 @@ code generation targets after the build.</p>
 </ul>
 <p>An example of such a target is:</p>
 <pre><code class="lang-xml" name="KubeOps.targets" highlight-lines="2-7">&lt;Target Name=&quot;GetAssemblyBeforeTimestamp&quot; AfterTargets=&quot;BeforeCompile&quot;&gt;
-    &lt;PropertyGroup&gt;
-        &lt;KubeOpsAssemblyTimestampBeforeCompile&gt;%(IntermediateAssembly.ModifiedTime)&lt;/KubeOpsAssemblyTimestampBeforeCompile&gt;
-    &lt;/PropertyGroup&gt;
+&lt;PropertyGroup&gt;
+  &lt;KubeOpsAssemblyTimestampBeforeCompile&gt;%(IntermediateAssembly.ModifiedTime)&lt;/KubeOpsAssemblyTimestampBeforeCompile&gt;
+&lt;/PropertyGroup&gt;
 &lt;/Target&gt;
 
 &lt;Target Name=&quot;GetAssemblyAfterTimestamp&quot; AfterTargets=&quot;CoreCompile&quot;&gt;
-    &lt;PropertyGroup&gt;
-        &lt;KubeOpsAssemblyTimestampAfterCompile&gt;%(IntermediateAssembly.ModifiedTime)&lt;/KubeOpsAssemblyTimestampAfterCompile&gt;
+&lt;PropertyGroup&gt;
+  &lt;KubeOpsAssemblyTimestampAfterCompile&gt;%(IntermediateAssembly.ModifiedTime)&lt;/KubeOpsAssemblyTimestampAfterCompile&gt;
 </code></pre><p>They can be configured with the prop settings described below.
 The props file just defines the defaults.</p>
 <h2 id="prop-settings">Prop Settings</h2>
