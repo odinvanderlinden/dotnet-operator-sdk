@@ -1644,6 +1644,19 @@ references:
   commentId: T:KubeOps.Operator.OperatorSettings
   fullName: KubeOps.Operator.OperatorSettings
   nameWithType: OperatorSettings
+- uid: KubeOps.Operator.OperatorSettings.CacheComparisonConfig
+  name: CacheComparisonConfig
+  href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_CacheComparisonConfig
+  commentId: P:KubeOps.Operator.OperatorSettings.CacheComparisonConfig
+  fullName: KubeOps.Operator.OperatorSettings.CacheComparisonConfig
+  nameWithType: OperatorSettings.CacheComparisonConfig
+- uid: KubeOps.Operator.OperatorSettings.CacheComparisonConfig*
+  name: CacheComparisonConfig
+  href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_CacheComparisonConfig_
+  commentId: Overload:KubeOps.Operator.OperatorSettings.CacheComparisonConfig
+  isSpec: "True"
+  fullName: KubeOps.Operator.OperatorSettings.CacheComparisonConfig
+  nameWithType: OperatorSettings.CacheComparisonConfig
 - uid: KubeOps.Operator.OperatorSettings.DefaultRequeueAsSameType
   name: DefaultRequeueAsSameType
   href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_DefaultRequeueAsSameType
