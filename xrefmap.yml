@@ -211,6 +211,85 @@ references:
   commentId: N:KubeOps.Operator.Controller
   fullName: KubeOps.Operator.Controller
   nameWithType: KubeOps.Operator.Controller
+- uid: KubeOps.Operator.Controller.IEventQueue`1
+  name: IEventQueue<TEntity>
+  href: kube-ops/KubeOps.Operator.Controller.IEventQueue-1.html
+  commentId: T:KubeOps.Operator.Controller.IEventQueue`1
+  name.vb: IEventQueue(Of TEntity)
+  fullName: KubeOps.Operator.Controller.IEventQueue<TEntity>
+  fullName.vb: KubeOps.Operator.Controller.IEventQueue(Of TEntity)
+  nameWithType: IEventQueue<TEntity>
+  nameWithType.vb: IEventQueue(Of TEntity)
+- uid: KubeOps.Operator.Controller.IEventQueue`1.EnqueueLocal(KubeOps.Operator.Controller.ResourceEvent{`0})
+  name: EnqueueLocal(ResourceEvent<TEntity>)
+  href: kube-ops/KubeOps.Operator.Controller.IEventQueue-1.html#KubeOps_Operator_Controller_IEventQueue_1_EnqueueLocal_KubeOps_Operator_Controller_ResourceEvent__0__
+  commentId: M:KubeOps.Operator.Controller.IEventQueue`1.EnqueueLocal(KubeOps.Operator.Controller.ResourceEvent{`0})
+  name.vb: EnqueueLocal(ResourceEvent(Of TEntity))
+  fullName: KubeOps.Operator.Controller.IEventQueue<TEntity>.EnqueueLocal(KubeOps.Operator.Controller.ResourceEvent<TEntity>)
+  fullName.vb: KubeOps.Operator.Controller.IEventQueue(Of TEntity).EnqueueLocal(KubeOps.Operator.Controller.ResourceEvent(Of TEntity))
+  nameWithType: IEventQueue<TEntity>.EnqueueLocal(ResourceEvent<TEntity>)
+  nameWithType.vb: IEventQueue(Of TEntity).EnqueueLocal(ResourceEvent(Of TEntity))
+- uid: KubeOps.Operator.Controller.IEventQueue`1.EnqueueLocal*
+  name: EnqueueLocal
+  href: kube-ops/KubeOps.Operator.Controller.IEventQueue-1.html#KubeOps_Operator_Controller_IEventQueue_1_EnqueueLocal_
+  commentId: Overload:KubeOps.Operator.Controller.IEventQueue`1.EnqueueLocal
+  isSpec: "True"
+  fullName: KubeOps.Operator.Controller.IEventQueue<TEntity>.EnqueueLocal
+  fullName.vb: KubeOps.Operator.Controller.IEventQueue(Of TEntity).EnqueueLocal
+  nameWithType: IEventQueue<TEntity>.EnqueueLocal
+  nameWithType.vb: IEventQueue(Of TEntity).EnqueueLocal
+- uid: KubeOps.Operator.Controller.IEventQueue`1.Events
+  name: Events
+  href: kube-ops/KubeOps.Operator.Controller.IEventQueue-1.html#KubeOps_Operator_Controller_IEventQueue_1_Events
+  commentId: P:KubeOps.Operator.Controller.IEventQueue`1.Events
+  fullName: KubeOps.Operator.Controller.IEventQueue<TEntity>.Events
+  fullName.vb: KubeOps.Operator.Controller.IEventQueue(Of TEntity).Events
+  nameWithType: IEventQueue<TEntity>.Events
+  nameWithType.vb: IEventQueue(Of TEntity).Events
+- uid: KubeOps.Operator.Controller.IEventQueue`1.Events*
+  name: Events
+  href: kube-ops/KubeOps.Operator.Controller.IEventQueue-1.html#KubeOps_Operator_Controller_IEventQueue_1_Events_
+  commentId: Overload:KubeOps.Operator.Controller.IEventQueue`1.Events
+  isSpec: "True"
+  fullName: KubeOps.Operator.Controller.IEventQueue<TEntity>.Events
+  fullName.vb: KubeOps.Operator.Controller.IEventQueue(Of TEntity).Events
+  nameWithType: IEventQueue<TEntity>.Events
+  nameWithType.vb: IEventQueue(Of TEntity).Events
+- uid: KubeOps.Operator.Controller.IEventQueue`1.StartAsync(System.Action{KubeOps.Operator.Controller.ResourceEvent{`0}})
+  name: StartAsync(Action<ResourceEvent<TEntity>>)
+  href: kube-ops/KubeOps.Operator.Controller.IEventQueue-1.html#KubeOps_Operator_Controller_IEventQueue_1_StartAsync_System_Action_KubeOps_Operator_Controller_ResourceEvent__0___
+  commentId: M:KubeOps.Operator.Controller.IEventQueue`1.StartAsync(System.Action{KubeOps.Operator.Controller.ResourceEvent{`0}})
+  name.vb: StartAsync(Action(Of ResourceEvent(Of TEntity)))
+  fullName: KubeOps.Operator.Controller.IEventQueue<TEntity>.StartAsync(System.Action<KubeOps.Operator.Controller.ResourceEvent<TEntity>>)
+  fullName.vb: KubeOps.Operator.Controller.IEventQueue(Of TEntity).StartAsync(System.Action(Of KubeOps.Operator.Controller.ResourceEvent(Of TEntity)))
+  nameWithType: IEventQueue<TEntity>.StartAsync(Action<ResourceEvent<TEntity>>)
+  nameWithType.vb: IEventQueue(Of TEntity).StartAsync(Action(Of ResourceEvent(Of TEntity)))
+- uid: KubeOps.Operator.Controller.IEventQueue`1.StartAsync*
+  name: StartAsync
+  href: kube-ops/KubeOps.Operator.Controller.IEventQueue-1.html#KubeOps_Operator_Controller_IEventQueue_1_StartAsync_
+  commentId: Overload:KubeOps.Operator.Controller.IEventQueue`1.StartAsync
+  isSpec: "True"
+  fullName: KubeOps.Operator.Controller.IEventQueue<TEntity>.StartAsync
+  fullName.vb: KubeOps.Operator.Controller.IEventQueue(Of TEntity).StartAsync
+  nameWithType: IEventQueue<TEntity>.StartAsync
+  nameWithType.vb: IEventQueue(Of TEntity).StartAsync
+- uid: KubeOps.Operator.Controller.IEventQueue`1.StopAsync
+  name: StopAsync()
+  href: kube-ops/KubeOps.Operator.Controller.IEventQueue-1.html#KubeOps_Operator_Controller_IEventQueue_1_StopAsync
+  commentId: M:KubeOps.Operator.Controller.IEventQueue`1.StopAsync
+  fullName: KubeOps.Operator.Controller.IEventQueue<TEntity>.StopAsync()
+  fullName.vb: KubeOps.Operator.Controller.IEventQueue(Of TEntity).StopAsync()
+  nameWithType: IEventQueue<TEntity>.StopAsync()
+  nameWithType.vb: IEventQueue(Of TEntity).StopAsync()
+- uid: KubeOps.Operator.Controller.IEventQueue`1.StopAsync*
+  name: StopAsync
+  href: kube-ops/KubeOps.Operator.Controller.IEventQueue-1.html#KubeOps_Operator_Controller_IEventQueue_1_StopAsync_
+  commentId: Overload:KubeOps.Operator.Controller.IEventQueue`1.StopAsync
+  isSpec: "True"
+  fullName: KubeOps.Operator.Controller.IEventQueue<TEntity>.StopAsync
+  fullName.vb: KubeOps.Operator.Controller.IEventQueue(Of TEntity).StopAsync
+  nameWithType: IEventQueue<TEntity>.StopAsync
+  nameWithType.vb: IEventQueue(Of TEntity).StopAsync
 - uid: KubeOps.Operator.Controller.IResourceController`1
   name: IResourceController<TEntity>
   href: kube-ops/KubeOps.Operator.Controller.IResourceController-1.html
@@ -271,6 +350,101 @@ references:
   fullName.vb: KubeOps.Operator.Controller.IResourceController(Of TEntity).StatusModifiedAsync
   nameWithType: IResourceController<TEntity>.StatusModifiedAsync
   nameWithType.vb: IResourceController(Of TEntity).StatusModifiedAsync
+- uid: KubeOps.Operator.Controller.ResourceEvent`1
+  name: ResourceEvent<TEntity>
+  href: kube-ops/KubeOps.Operator.Controller.ResourceEvent-1.html
+  commentId: T:KubeOps.Operator.Controller.ResourceEvent`1
+  name.vb: ResourceEvent(Of TEntity)
+  fullName: KubeOps.Operator.Controller.ResourceEvent<TEntity>
+  fullName.vb: KubeOps.Operator.Controller.ResourceEvent(Of TEntity)
+  nameWithType: ResourceEvent<TEntity>
+  nameWithType.vb: ResourceEvent(Of TEntity)
+- uid: KubeOps.Operator.Controller.ResourceEvent`1.#ctor(KubeOps.Operator.Kubernetes.ResourceEventType,`0,System.Int32,System.Nullable{System.TimeSpan})
+  name: ResourceEvent(ResourceEventType, TEntity, Int32, Nullable<TimeSpan>)
+  href: kube-ops/KubeOps.Operator.Controller.ResourceEvent-1.html#KubeOps_Operator_Controller_ResourceEvent_1__ctor_KubeOps_Operator_Kubernetes_ResourceEventType__0_System_Int32_System_Nullable_System_TimeSpan__
+  commentId: M:KubeOps.Operator.Controller.ResourceEvent`1.#ctor(KubeOps.Operator.Kubernetes.ResourceEventType,`0,System.Int32,System.Nullable{System.TimeSpan})
+  name.vb: ResourceEvent(ResourceEventType, TEntity, Int32, Nullable(Of TimeSpan))
+  fullName: KubeOps.Operator.Controller.ResourceEvent<TEntity>.ResourceEvent(KubeOps.Operator.Kubernetes.ResourceEventType, TEntity, System.Int32, System.Nullable<System.TimeSpan>)
+  fullName.vb: KubeOps.Operator.Controller.ResourceEvent(Of TEntity).ResourceEvent(KubeOps.Operator.Kubernetes.ResourceEventType, TEntity, System.Int32, System.Nullable(Of System.TimeSpan))
+  nameWithType: ResourceEvent<TEntity>.ResourceEvent(ResourceEventType, TEntity, Int32, Nullable<TimeSpan>)
+  nameWithType.vb: ResourceEvent(Of TEntity).ResourceEvent(ResourceEventType, TEntity, Int32, Nullable(Of TimeSpan))
+- uid: KubeOps.Operator.Controller.ResourceEvent`1.#ctor*
+  name: ResourceEvent
+  href: kube-ops/KubeOps.Operator.Controller.ResourceEvent-1.html#KubeOps_Operator_Controller_ResourceEvent_1__ctor_
+  commentId: Overload:KubeOps.Operator.Controller.ResourceEvent`1.#ctor
+  isSpec: "True"
+  fullName: KubeOps.Operator.Controller.ResourceEvent<TEntity>.ResourceEvent
+  fullName.vb: KubeOps.Operator.Controller.ResourceEvent(Of TEntity).ResourceEvent
+  nameWithType: ResourceEvent<TEntity>.ResourceEvent
+  nameWithType.vb: ResourceEvent(Of TEntity).ResourceEvent
+- uid: KubeOps.Operator.Controller.ResourceEvent`1.Attempt
+  name: Attempt
+  href: kube-ops/KubeOps.Operator.Controller.ResourceEvent-1.html#KubeOps_Operator_Controller_ResourceEvent_1_Attempt
+  commentId: P:KubeOps.Operator.Controller.ResourceEvent`1.Attempt
+  fullName: KubeOps.Operator.Controller.ResourceEvent<TEntity>.Attempt
+  fullName.vb: KubeOps.Operator.Controller.ResourceEvent(Of TEntity).Attempt
+  nameWithType: ResourceEvent<TEntity>.Attempt
+  nameWithType.vb: ResourceEvent(Of TEntity).Attempt
+- uid: KubeOps.Operator.Controller.ResourceEvent`1.Attempt*
+  name: Attempt
+  href: kube-ops/KubeOps.Operator.Controller.ResourceEvent-1.html#KubeOps_Operator_Controller_ResourceEvent_1_Attempt_
+  commentId: Overload:KubeOps.Operator.Controller.ResourceEvent`1.Attempt
+  isSpec: "True"
+  fullName: KubeOps.Operator.Controller.ResourceEvent<TEntity>.Attempt
+  fullName.vb: KubeOps.Operator.Controller.ResourceEvent(Of TEntity).Attempt
+  nameWithType: ResourceEvent<TEntity>.Attempt
+  nameWithType.vb: ResourceEvent(Of TEntity).Attempt
+- uid: KubeOps.Operator.Controller.ResourceEvent`1.Delay
+  name: Delay
+  href: kube-ops/KubeOps.Operator.Controller.ResourceEvent-1.html#KubeOps_Operator_Controller_ResourceEvent_1_Delay
+  commentId: P:KubeOps.Operator.Controller.ResourceEvent`1.Delay
+  fullName: KubeOps.Operator.Controller.ResourceEvent<TEntity>.Delay
+  fullName.vb: KubeOps.Operator.Controller.ResourceEvent(Of TEntity).Delay
+  nameWithType: ResourceEvent<TEntity>.Delay
+  nameWithType.vb: ResourceEvent(Of TEntity).Delay
+- uid: KubeOps.Operator.Controller.ResourceEvent`1.Delay*
+  name: Delay
+  href: kube-ops/KubeOps.Operator.Controller.ResourceEvent-1.html#KubeOps_Operator_Controller_ResourceEvent_1_Delay_
+  commentId: Overload:KubeOps.Operator.Controller.ResourceEvent`1.Delay
+  isSpec: "True"
+  fullName: KubeOps.Operator.Controller.ResourceEvent<TEntity>.Delay
+  fullName.vb: KubeOps.Operator.Controller.ResourceEvent(Of TEntity).Delay
+  nameWithType: ResourceEvent<TEntity>.Delay
+  nameWithType.vb: ResourceEvent(Of TEntity).Delay
+- uid: KubeOps.Operator.Controller.ResourceEvent`1.Resource
+  name: Resource
+  href: kube-ops/KubeOps.Operator.Controller.ResourceEvent-1.html#KubeOps_Operator_Controller_ResourceEvent_1_Resource
+  commentId: P:KubeOps.Operator.Controller.ResourceEvent`1.Resource
+  fullName: KubeOps.Operator.Controller.ResourceEvent<TEntity>.Resource
+  fullName.vb: KubeOps.Operator.Controller.ResourceEvent(Of TEntity).Resource
+  nameWithType: ResourceEvent<TEntity>.Resource
+  nameWithType.vb: ResourceEvent(Of TEntity).Resource
+- uid: KubeOps.Operator.Controller.ResourceEvent`1.Resource*
+  name: Resource
+  href: kube-ops/KubeOps.Operator.Controller.ResourceEvent-1.html#KubeOps_Operator_Controller_ResourceEvent_1_Resource_
+  commentId: Overload:KubeOps.Operator.Controller.ResourceEvent`1.Resource
+  isSpec: "True"
+  fullName: KubeOps.Operator.Controller.ResourceEvent<TEntity>.Resource
+  fullName.vb: KubeOps.Operator.Controller.ResourceEvent(Of TEntity).Resource
+  nameWithType: ResourceEvent<TEntity>.Resource
+  nameWithType.vb: ResourceEvent(Of TEntity).Resource
+- uid: KubeOps.Operator.Controller.ResourceEvent`1.Type
+  name: Type
+  href: kube-ops/KubeOps.Operator.Controller.ResourceEvent-1.html#KubeOps_Operator_Controller_ResourceEvent_1_Type
+  commentId: P:KubeOps.Operator.Controller.ResourceEvent`1.Type
+  fullName: KubeOps.Operator.Controller.ResourceEvent<TEntity>.Type
+  fullName.vb: KubeOps.Operator.Controller.ResourceEvent(Of TEntity).Type
+  nameWithType: ResourceEvent<TEntity>.Type
+  nameWithType.vb: ResourceEvent(Of TEntity).Type
+- uid: KubeOps.Operator.Controller.ResourceEvent`1.Type*
+  name: Type
+  href: kube-ops/KubeOps.Operator.Controller.ResourceEvent-1.html#KubeOps_Operator_Controller_ResourceEvent_1_Type_
+  commentId: Overload:KubeOps.Operator.Controller.ResourceEvent`1.Type
+  isSpec: "True"
+  fullName: KubeOps.Operator.Controller.ResourceEvent<TEntity>.Type
+  fullName.vb: KubeOps.Operator.Controller.ResourceEvent(Of TEntity).Type
+  nameWithType: ResourceEvent<TEntity>.Type
+  nameWithType.vb: ResourceEvent(Of TEntity).Type
 - uid: KubeOps.Operator.Controller.Results
   name: KubeOps.Operator.Controller.Results
   href: kube-ops/KubeOps.Operator.Controller.Results.html
@@ -2572,15 +2746,15 @@ references:
   fullName.vb: KubeOps.Testing.KubernetesOperatorFactory(Of TTestStartup).EnqueueEvent
   nameWithType: KubernetesOperatorFactory<TTestStartup>.EnqueueEvent
   nameWithType.vb: KubernetesOperatorFactory(Of TTestStartup).EnqueueEvent
-- uid: KubeOps.Testing.KubernetesOperatorFactory`1.EnqueueEvent``1(KubeOps.Operator.Kubernetes.ResourceEventType,``0)
-  name: EnqueueEvent<TEntity>(ResourceEventType, TEntity)
-  href: kube-ops-testing/KubeOps.Testing.KubernetesOperatorFactory-1.html#KubeOps_Testing_KubernetesOperatorFactory_1_EnqueueEvent__1_KubeOps_Operator_Kubernetes_ResourceEventType___0_
-  commentId: M:KubeOps.Testing.KubernetesOperatorFactory`1.EnqueueEvent``1(KubeOps.Operator.Kubernetes.ResourceEventType,``0)
-  name.vb: EnqueueEvent(Of TEntity)(ResourceEventType, TEntity)
-  fullName: KubeOps.Testing.KubernetesOperatorFactory<TTestStartup>.EnqueueEvent<TEntity>(KubeOps.Operator.Kubernetes.ResourceEventType, TEntity)
-  fullName.vb: KubeOps.Testing.KubernetesOperatorFactory(Of TTestStartup).EnqueueEvent(Of TEntity)(KubeOps.Operator.Kubernetes.ResourceEventType, TEntity)
-  nameWithType: KubernetesOperatorFactory<TTestStartup>.EnqueueEvent<TEntity>(ResourceEventType, TEntity)
-  nameWithType.vb: KubernetesOperatorFactory(Of TTestStartup).EnqueueEvent(Of TEntity)(ResourceEventType, TEntity)
+- uid: KubeOps.Testing.KubernetesOperatorFactory`1.EnqueueEvent``1(KubeOps.Operator.Kubernetes.ResourceEventType,``0,System.Int32,System.Nullable{System.TimeSpan})
+  name: EnqueueEvent<TEntity>(ResourceEventType, TEntity, Int32, Nullable<TimeSpan>)
+  href: kube-ops-testing/KubeOps.Testing.KubernetesOperatorFactory-1.html#KubeOps_Testing_KubernetesOperatorFactory_1_EnqueueEvent__1_KubeOps_Operator_Kubernetes_ResourceEventType___0_System_Int32_System_Nullable_System_TimeSpan__
+  commentId: M:KubeOps.Testing.KubernetesOperatorFactory`1.EnqueueEvent``1(KubeOps.Operator.Kubernetes.ResourceEventType,``0,System.Int32,System.Nullable{System.TimeSpan})
+  name.vb: EnqueueEvent(Of TEntity)(ResourceEventType, TEntity, Int32, Nullable(Of TimeSpan))
+  fullName: KubeOps.Testing.KubernetesOperatorFactory<TTestStartup>.EnqueueEvent<TEntity>(KubeOps.Operator.Kubernetes.ResourceEventType, TEntity, System.Int32, System.Nullable<System.TimeSpan>)
+  fullName.vb: KubeOps.Testing.KubernetesOperatorFactory(Of TTestStartup).EnqueueEvent(Of TEntity)(KubeOps.Operator.Kubernetes.ResourceEventType, TEntity, System.Int32, System.Nullable(Of System.TimeSpan))
+  nameWithType: KubernetesOperatorFactory<TTestStartup>.EnqueueEvent<TEntity>(ResourceEventType, TEntity, Int32, Nullable<TimeSpan>)
+  nameWithType.vb: KubernetesOperatorFactory(Of TTestStartup).EnqueueEvent(Of TEntity)(ResourceEventType, TEntity, Int32, Nullable(Of TimeSpan))
 - uid: KubeOps.Testing.KubernetesOperatorFactory`1.EnqueueFinalization*
   name: EnqueueFinalization
   href: kube-ops-testing/KubeOps.Testing.KubernetesOperatorFactory-1.html#KubeOps_Testing_KubernetesOperatorFactory_1_EnqueueFinalization_

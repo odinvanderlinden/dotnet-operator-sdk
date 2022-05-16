@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Enum RbacVerb
+    <title>Interface IEventQueue&lt;TEntity&gt;
    | KubeOps Documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Enum RbacVerb
+    <meta name="title" content="Interface IEventQueue&lt;TEntity&gt;
    | KubeOps Documentation ">
     <meta name="generator" content="docfx 2.59.2.0">
     
@@ -122,8 +122,8 @@
                       <a href="KubeOps.Operator.Controller.html" title="KubeOps.Operator.Controller" class="">KubeOps.Operator.Controller</a>
                         
                         <ul class="nav level2">
-                          <li class="">
-                            <a href="KubeOps.Operator.Controller.IEventQueue-1.html" title="IEventQueue&lt;TEntity&gt;" class="">IEventQueue&lt;TEntity&gt;</a>
+                          <li class="active">
+                            <a href="KubeOps.Operator.Controller.IEventQueue-1.html" title="IEventQueue&lt;TEntity&gt;" class="active">IEventQueue&lt;TEntity&gt;</a>
                           </li>
                           <li class="">
                             <a href="KubeOps.Operator.Controller.IResourceController-1.html" title="IResourceController&lt;TEntity&gt;" class="">IResourceController&lt;TEntity&gt;</a>
@@ -317,8 +317,8 @@
                           <li class="">
                             <a href="KubeOps.Operator.Rbac.GenericRbacAttribute.html" title="GenericRbacAttribute" class="">GenericRbacAttribute</a>
                           </li>
-                          <li class="active">
-                            <a href="KubeOps.Operator.Rbac.RbacVerb.html" title="RbacVerb" class="active">RbacVerb</a>
+                          <li class="">
+                            <a href="KubeOps.Operator.Rbac.RbacVerb.html" title="RbacVerb" class="">RbacVerb</a>
                           </li>
                         </ul>  </li>
                     <li class="">
@@ -355,78 +355,178 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="KubeOps.Operator.Rbac.RbacVerb">
+            <article class="content wrap" id="_content" data-uid="KubeOps.Operator.Controller.IEventQueue`1">
   
   
-  <h1 id="KubeOps_Operator_Rbac_RbacVerb" data-uid="KubeOps.Operator.Rbac.RbacVerb" class="text-break">Enum RbacVerb
+  <h1 id="KubeOps_Operator_Controller_IEventQueue_1" data-uid="KubeOps.Operator.Controller.IEventQueue`1" class="text-break">Interface IEventQueue&lt;TEntity&gt;
   </h1>
-  <div class="markdown level0 summary"><p>List of possible rbac verbs.</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="KubeOps.Operator.Rbac.html">KubeOps.Operator.Rbac</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="KubeOps.Operator.Controller.html">KubeOps.Operator.Controller</a></h6>
   <h6><strong>Assembly</strong>: KubeOps.dll</h6>
-  <h5 id="KubeOps_Operator_Rbac_RbacVerb_syntax">Syntax</h5>
+  <h5 id="KubeOps_Operator_Controller_IEventQueue_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Flags]
-public enum RbacVerb</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IEventQueue&lt;TEntity&gt;
+    where TEntity : class, IKubernetesObject&lt;V1ObjectMeta&gt;</code></pre>
   </div>
-  <h3 id="fields">Fields
-  </h3>
+  <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Name</th>
         <th>Description</th>
       </tr>
-    <thead>
+    </thead>
     <tbody>
       <tr>
-        <td id="KubeOps_Operator_Rbac_RbacVerb_All">All</td>
-        <td><p>All possible permissions.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="KubeOps_Operator_Rbac_RbacVerb_Create">Create</td>
-        <td><p>Create new instances of the resource.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="KubeOps_Operator_Rbac_RbacVerb_Delete">Delete</td>
-        <td><p>Delete resources on the api.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="KubeOps_Operator_Rbac_RbacVerb_Get">Get</td>
-        <td><p>Retrieve the resource from the api.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="KubeOps_Operator_Rbac_RbacVerb_List">List</td>
-        <td><p>List resources on the api.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="KubeOps_Operator_Rbac_RbacVerb_None">None</td>
-        <td><p>No permissions on the resource.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="KubeOps_Operator_Rbac_RbacVerb_Patch">Patch</td>
-        <td><p>Patch resources.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="KubeOps_Operator_Rbac_RbacVerb_Update">Update</td>
-        <td><p>Update existing resources.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="KubeOps_Operator_Rbac_RbacVerb_Watch">Watch</td>
-        <td><p>Watch for events on resources.</p>
-</td>
+        <td><span class="parametername">TEntity</span></td>
+        <td></td>
       </tr>
     </tbody>
-  </thead></thead></table>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Controller_IEventQueue_1_Events.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Controller.IEventQueue%601.Events%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Controller/IEventQueue.cs/#L11">View Source</a>
+  </span>
+  <a id="KubeOps_Operator_Controller_IEventQueue_1_Events_" data-uid="KubeOps.Operator.Controller.IEventQueue`1.Events*"></a>
+  <h4 id="KubeOps_Operator_Controller_IEventQueue_1_Events" data-uid="KubeOps.Operator.Controller.IEventQueue`1.Events">Events</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IObservable&lt;ResourceEvent&lt;TEntity&gt;&gt; Events { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iobservable-1">IObservable</a>&lt;<a class="xref" href="KubeOps.Operator.Controller.ResourceEvent-1.html">ResourceEvent</a>&lt;TEntity&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Controller_IEventQueue_1_EnqueueLocal_KubeOps_Operator_Controller_ResourceEvent__0__.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Controller.IEventQueue%601.EnqueueLocal(KubeOps.Operator.Controller.ResourceEvent%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Controller/IEventQueue.cs/#L17">View Source</a>
+  </span>
+  <a id="KubeOps_Operator_Controller_IEventQueue_1_EnqueueLocal_" data-uid="KubeOps.Operator.Controller.IEventQueue`1.EnqueueLocal*"></a>
+  <h4 id="KubeOps_Operator_Controller_IEventQueue_1_EnqueueLocal_KubeOps_Operator_Controller_ResourceEvent__0__" data-uid="KubeOps.Operator.Controller.IEventQueue`1.EnqueueLocal(KubeOps.Operator.Controller.ResourceEvent{`0})">EnqueueLocal(ResourceEvent&lt;TEntity&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void EnqueueLocal(ResourceEvent&lt;TEntity&gt; resourceEvent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="KubeOps.Operator.Controller.ResourceEvent-1.html">ResourceEvent</a>&lt;TEntity&gt;</td>
+        <td><span class="parametername">resourceEvent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Controller_IEventQueue_1_StartAsync_System_Action_KubeOps_Operator_Controller_ResourceEvent__0___.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Controller.IEventQueue%601.StartAsync(System.Action%7BKubeOps.Operator.Controller.ResourceEvent%7B%600%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Controller/IEventQueue.cs/#L13">View Source</a>
+  </span>
+  <a id="KubeOps_Operator_Controller_IEventQueue_1_StartAsync_" data-uid="KubeOps.Operator.Controller.IEventQueue`1.StartAsync*"></a>
+  <h4 id="KubeOps_Operator_Controller_IEventQueue_1_StartAsync_System_Action_KubeOps_Operator_Controller_ResourceEvent__0___" data-uid="KubeOps.Operator.Controller.IEventQueue`1.StartAsync(System.Action{KubeOps.Operator.Controller.ResourceEvent{`0}})">StartAsync(Action&lt;ResourceEvent&lt;TEntity&gt;&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task StartAsync(Action&lt;ResourceEvent&lt;TEntity&gt;&gt; onWatcherEvent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="KubeOps.Operator.Controller.ResourceEvent-1.html">ResourceEvent</a>&lt;TEntity&gt;&gt;</td>
+        <td><span class="parametername">onWatcherEvent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Controller_IEventQueue_1_StopAsync.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Controller.IEventQueue%601.StopAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Controller/IEventQueue.cs/#L15">View Source</a>
+  </span>
+  <a id="KubeOps_Operator_Controller_IEventQueue_1_StopAsync_" data-uid="KubeOps.Operator.Controller.IEventQueue`1.StopAsync*"></a>
+  <h4 id="KubeOps_Operator_Controller_IEventQueue_1_StopAsync" data-uid="KubeOps.Operator.Controller.IEventQueue`1.StopAsync">StopAsync()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task StopAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
@@ -435,10 +535,10 @@ public enum RbacVerb</code></pre>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Rbac_RbacVerb.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Rbac.RbacVerb%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Controller_IEventQueue_1.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Controller.IEventQueue%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Rbac/RbacVerbs.cs/#L8" class="contribution-link">View Source</a>
+                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Controller/IEventQueue.cs/#L8" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
