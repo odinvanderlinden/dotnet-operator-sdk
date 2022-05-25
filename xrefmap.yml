@@ -2000,6 +2000,19 @@ references:
   isSpec: "True"
   fullName: KubeOps.Operator.OperatorSettings.Namespace
   nameWithType: OperatorSettings.Namespace
+- uid: KubeOps.Operator.OperatorSettings.OnlyWatchEventsWhenLeader
+  name: OnlyWatchEventsWhenLeader
+  href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_OnlyWatchEventsWhenLeader
+  commentId: P:KubeOps.Operator.OperatorSettings.OnlyWatchEventsWhenLeader
+  fullName: KubeOps.Operator.OperatorSettings.OnlyWatchEventsWhenLeader
+  nameWithType: OperatorSettings.OnlyWatchEventsWhenLeader
+- uid: KubeOps.Operator.OperatorSettings.OnlyWatchEventsWhenLeader*
+  name: OnlyWatchEventsWhenLeader
+  href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_OnlyWatchEventsWhenLeader_
+  commentId: Overload:KubeOps.Operator.OperatorSettings.OnlyWatchEventsWhenLeader
+  isSpec: "True"
+  fullName: KubeOps.Operator.OperatorSettings.OnlyWatchEventsWhenLeader
+  nameWithType: OperatorSettings.OnlyWatchEventsWhenLeader
 - uid: KubeOps.Operator.OperatorSettings.PreloadCache
   name: PreloadCache
   href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_PreloadCache
